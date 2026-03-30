@@ -84,7 +84,7 @@ const services = [
   },
   {
     title: "IT-lösningar",
-    description: "Vi kopplar ihop er teknik så att allt pratar med allt.",
+    description: "Industriella nätverk, cybersäkerhet och systemintegration för en sammankopplad produktion.",
     subs: [
       { heading: "Tjänster", items: ["Industriella nätverk", "Cybersäkerhet (OT/IT)", "Systemintegration"] },
     ],
@@ -152,7 +152,7 @@ export default function Home() {
             <p className="mt-8 text-lg sm:text-xl text-gray-400 leading-relaxed max-w-xl">
               Elkonstruktion. Programmering. Idrifttagning. Simulering.
               <span className="text-gray-200 font-medium"> Vi tar er från idé till fungerande anläggning</span> — och
-              stannar kvar tills allt rullar.
+              säkerställer en stabil och effektiv drift.
             </p>
 
             <div className="mt-10 flex flex-col sm:flex-row gap-4">
@@ -271,16 +271,16 @@ export default function Home() {
                 Om Conro
               </span>
               <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-gray-900 dark:text-white tracking-tight leading-tight">
-                Vi löser problem
+                Teknisk excellens
                 <br />
-                som andra säger
+                i varje
                 <br />
-                <span className="gradient-text">&quot;nej&quot;</span> till.
+                <span className="gradient-text">leverans</span>
               </h2>
               <p className="mt-6 text-lg text-gray-500 leading-relaxed">
-                Conro grundades med en enkel idé: industrin förtjänar bättre.
-                Bättre lösningar, bättre samarbete, bättre resultat. Vi är
-                ingenjörer som inte nöjer oss med &quot;good enough&quot;.
+                Conro grundades med en tydlig ambition: att leverera
+                automationslösningar som verkligen gör skillnad. Vi kombinerar
+                djup teknisk kompetens med ett systematiskt arbetssätt.
               </p>
               <p className="mt-4 text-lg text-gray-500 leading-relaxed">
                 Vår styrka ligger i att vi förstår helheten — från ritning till
@@ -366,21 +366,21 @@ export default function Home() {
                 step: "01",
                 title: "Analys & Design",
                 description:
-                  "Vi lyssnar, analyserar och ritar. Ni får en genomtänkt lösning anpassad efter just era förutsättningar.",
+                  "Vi kartlägger era behov och tar fram en genomtänkt lösning anpassad efter era specifika förutsättningar.",
                 color: "from-amber-400 to-orange-500",
               },
               {
                 step: "02",
                 title: "Utveckling & Test",
                 description:
-                  "Vi bygger, programmerar och simulerar. Allt testas rigoröst innan det lämnar vårt labb.",
+                  "Elkonstruktion, programmering och simulering — allt verifieras noggrant innan leverans.",
                 color: "from-primary to-emerald-400",
               },
               {
                 step: "03",
                 title: "Drift & Support",
                 description:
-                  "Vi startar upp, optimerar och stannar kvar. Er produktion är i trygga händer.",
+                  "Professionell idrifttagning på plats, följt av löpande support och kontinuerlig optimering.",
                 color: "from-emerald-400 to-green-500",
               },
             ].map((phase) => (
@@ -418,8 +418,8 @@ export default function Home() {
                 <span className="text-gray-500">Vi har lösningen.</span>
               </h2>
               <p className="mt-6 text-lg text-gray-400 leading-relaxed">
-                Berätta vad ni behöver. Vi återkommer snabbt med en plan,
-                en budget och ett leende.
+                Berätta vad ni behöver. Vi återkommer med en konkret plan
+                och en tydlig budget.
               </p>
 
               <div className="mt-10 space-y-5">
