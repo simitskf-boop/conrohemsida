@@ -115,7 +115,7 @@ const stats = [
   { value: "15+", label: "Års erfarenhet", suffix: "" },
   { value: "200+", label: "Projekt levererade", suffix: "" },
   { value: "50+", label: "Nöjda kunder", suffix: "" },
-  { value: "24/7", label: "Support vid behov, Ring Daniel", suffix: "" },
+  { value: "24/7", label: "Support vid behov", suffix: "" },
 ];
 
 export default function Home() {
