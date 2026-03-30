@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef, useEffect } from "react";
+import { useRef, useEffect, useState } from "react";
 
 export default function VideoBackground({
   src,
@@ -10,52 +10,83 @@ export default function VideoBackground({
   className?: string;
 }) {
   const ref = useRef<HTMLVideoElement>(null);
+  const [failed, setFailed] = useState(false);
+
+  // Derive poster path from video path: /hero-video-1.mp4 -> /hero-video-1-poster.jpg
+  const poster = src.replace(".mp4", "-poster.jpg");
 
   useEffect(() => {
     const video = ref.current;
     if (!video) return;
 
-    // Force play on mobile — some browsers block autoplay until interaction
+    video.setAttribute("webkit-playsinline", "");
+    video.setAttribute("x5-playsinline", "");
+    video.setAttribute("x5-video-player-type", "h5");
+
     const tryPlay = () => {
-      video.play().catch(() => {});
+      if (video.paused) {
+        video.play().catch(() => {
+          setFailed(true);
+        });
+      }
     };
 
-    // Set webkit-playsinline for iOS
-    video.setAttribute("webkit-playsinline", "");
+    // IntersectionObserver: only play when visible
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            tryPlay();
+          } else {
+            video.pause();
+          }
+        });
+      },
+      { threshold: 0.1 }
+    );
+    observer.observe(video);
 
-    tryPlay();
-
-    // Retry on visibility change (tab switch, scroll into view)
-    document.addEventListener("visibilitychange", () => {
-      if (!document.hidden) tryPlay();
-    });
-
-    // Also try on first user interaction
+    // Retry on first user interaction (iOS Low Power Mode)
     const onInteract = () => {
       tryPlay();
       window.removeEventListener("touchstart", onInteract);
+      window.removeEventListener("scroll", onInteract);
       window.removeEventListener("click", onInteract);
     };
-    window.addEventListener("touchstart", onInteract, { passive: true });
-    window.addEventListener("click", onInteract);
+    window.addEventListener("touchstart", onInteract, { passive: true, once: true });
+    window.addEventListener("scroll", onInteract, { passive: true, once: true });
+    window.addEventListener("click", onInteract, { once: true });
 
     return () => {
+      observer.disconnect();
       window.removeEventListener("touchstart", onInteract);
+      window.removeEventListener("scroll", onInteract);
       window.removeEventListener("click", onInteract);
     };
   }, []);
 
   return (
-    <video
-      ref={ref}
-      autoPlay
-      muted
-      loop
-      playsInline
-      preload="auto"
-      className={`video-bg ${className}`}
-    >
-      <source src={src} type="video/mp4" />
-    </video>
+    <>
+      {/* Poster fallback — always rendered, hidden when video plays */}
+      <img
+        src={poster}
+        alt=""
+        className={`video-bg ${className} ${failed ? "" : "hidden"}`}
+        aria-hidden="true"
+      />
+      {/* Video — hidden if autoplay fails */}
+      <video
+        ref={ref}
+        autoPlay
+        muted
+        loop
+        playsInline
+        preload="auto"
+        poster={poster}
+        className={`video-bg ${className} ${failed ? "hidden" : ""}`}
+      >
+        <source src={src} type="video/mp4" />
+      </video>
+    </>
   );
 }
