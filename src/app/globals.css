@@ -90,6 +90,18 @@ html {
   background-size: 60px 60px;
 }
 
+.video-bg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+}
+
 .gradient-text {
   background: linear-gradient(135deg, #4ade80 0%, #16a34a 50%, #f97316 100%);
   -webkit-background-clip: text;

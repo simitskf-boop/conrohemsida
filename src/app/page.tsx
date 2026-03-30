@@ -130,7 +130,7 @@ export default function Home() {
           muted
           loop
           playsInline
-          className="absolute inset-0 w-full h-full object-cover opacity-30"
+          className="video-bg opacity-30"
         >
           <source src="/hero-video-1.mp4" type="video/mp4" />
         </video>
@@ -187,7 +187,7 @@ export default function Home() {
 
       {/* Services Section */}
       <section id="tjanster" className="relative py-24 sm:py-32 bg-white dark:bg-[#0a1628] overflow-hidden">
-        <video autoPlay muted loop playsInline className="absolute inset-0 w-full h-full object-cover opacity-0 dark:opacity-10">
+        <video autoPlay muted loop playsInline className="video-bg opacity-0 dark:opacity-10">
           <source src="/video-services.mp4" type="video/mp4" />
         </video>
         <div className="absolute inset-0 bg-white/80 dark:bg-[#0a1628]/80" />
@@ -255,7 +255,7 @@ export default function Home() {
           muted
           loop
           playsInline
-          className="absolute inset-0 w-full h-full object-cover opacity-20"
+          className="video-bg opacity-20"
         >
           <source src="/hero-video-3.mp4" type="video/mp4" />
         </video>
@@ -278,7 +278,7 @@ export default function Home() {
 
       {/* About Section */}
       <section id="om-oss" className="relative py-24 sm:py-32 bg-section-bg dark:bg-[#0d1f35] overflow-hidden">
-        <video autoPlay muted loop playsInline className="absolute inset-0 w-full h-full object-cover opacity-0 dark:opacity-10">
+        <video autoPlay muted loop playsInline className="video-bg opacity-0 dark:opacity-10">
           <source src="/video-about.mp4" type="video/mp4" />
         </video>
         <div className="absolute inset-0 bg-section-bg/80 dark:bg-[#0d1f35]/80" />
@@ -335,7 +335,7 @@ export default function Home() {
                   muted
                   loop
                   playsInline
-                  className="absolute inset-0 w-full h-full object-cover opacity-25"
+                  className="video-bg opacity-25"
                 >
                   <source src="/hero-video-2.mp4" type="video/mp4" />
                 </video>
@@ -369,7 +369,7 @@ export default function Home() {
 
       {/* Process / Why Conro */}
       <section id="varfor-conro" className="relative py-24 sm:py-32 bg-white dark:bg-[#0a1628] overflow-hidden">
-        <video autoPlay muted loop playsInline className="absolute inset-0 w-full h-full object-cover opacity-0 dark:opacity-10">
+        <video autoPlay muted loop playsInline className="video-bg opacity-0 dark:opacity-10">
           <source src="/video-process.mp4" type="video/mp4" />
         </video>
         <div className="absolute inset-0 bg-white/80 dark:bg-[#0a1628]/80" />
@@ -430,7 +430,7 @@ export default function Home() {
 
       {/* CTA / Contact Section */}
       <section id="kontakt" className="relative py-24 sm:py-32 bg-[#0a1628] overflow-hidden">
-        <video autoPlay muted loop playsInline className="absolute inset-0 w-full h-full object-cover opacity-15">
+        <video autoPlay muted loop playsInline className="video-bg opacity-15">
           <source src="/video-contact.mp4" type="video/mp4" />
         </video>
         <div className="absolute inset-0 bg-[#0a1628]/75" />
