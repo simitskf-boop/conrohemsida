@@ -6,6 +6,7 @@ const services = [
       { heading: "PLC", items: ["TIA Portal", "Allen Bradley", "Codesys"] },
       { heading: "HMI / SCADA", items: ["WinCC", "FactoryTalk", "Ignition"] },
       { heading: "Applikation", items: ["C#", "C++", "JavaScript m.m."] },
+      { heading: "AI & Intelligent Automation", items: ["AI-driven optimering", "Prediktivt underhåll", "Maskininlärning"] },
     ],
     icon: (
       <svg className="h-7 w-7" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
