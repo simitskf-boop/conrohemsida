@@ -1,21 +1,12 @@
 const services = [
   {
-    title: "Elkonstruktion",
-    description:
-      "Vi ritar, designar och dokumenterar elsystem som håller. Enligt standarder, men alltid med er verklighet i fokus.",
-    icon: (
-      <svg className="h-7 w-7" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
-        <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
-      </svg>
-    ),
-    color: "from-amber-400 to-orange-500",
-    bgColor: "bg-amber-50",
-    textColor: "text-amber-600",
-  },
-  {
     title: "Programmering",
-    description:
-      "PLC, HMI, SCADA — vi programmerar styrsystem som gör er produktion smartare, inte bara snabbare.",
+    description: "Vi utvecklar styrsystem och applikationer som gör er produktion smartare.",
+    subs: [
+      { heading: "PLC", items: ["TIA Portal", "Allen Bradley", "Codesys"] },
+      { heading: "HMI / SCADA", items: ["WinCC", "FactoryTalk", "Ignition"] },
+      { heading: "Applikation", items: ["C#", "C++", "JavaScript m.m."] },
+    ],
     icon: (
       <svg className="h-7 w-7" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
         <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5" />
@@ -26,9 +17,44 @@ const services = [
     textColor: "text-blue-600",
   },
   {
+    title: "Elkonstruktion",
+    description: "Komplett elkonstruktion — från scheman till färdig dokumentation.",
+    subs: [
+      { heading: "Verktyg", items: ["EPLAN", "ElproCAD"] },
+      { heading: "Leverans", items: ["Dokumentation & scheman", "CE-märkning"] },
+    ],
+    icon: (
+      <svg className="h-7 w-7" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
+        <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
+      </svg>
+    ),
+    color: "from-amber-400 to-orange-500",
+    bgColor: "bg-amber-50",
+    textColor: "text-amber-600",
+  },
+  {
+    title: "Riskbedömning",
+    description: "Säkerhetsbedömningar enligt maskindirektivet med rätt verktyg.",
+    subs: [
+      { heading: "Verktyg", items: ["CEDOC", "SISTEMA", "Softema"] },
+      { heading: "Scope", items: ["Maskindirektivet", "Riskanalys & dokumentation"] },
+    ],
+    icon: (
+      <svg className="h-7 w-7" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
+        <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126zM12 15.75h.007v.008H12v-.008z" />
+      </svg>
+    ),
+    color: "from-red-400 to-rose-500",
+    bgColor: "bg-red-50",
+    textColor: "text-red-600",
+  },
+  {
     title: "Idrifttagning",
-    description:
-      "Vi är med er på plats. Testar, justerar och finjusterar tills allting fungerar precis som det ska.",
+    description: "Vi är med er på plats tills allting fungerar som det ska.",
+    subs: [
+      { heading: "Process", items: ["Funktionstester", "FAT / SAT"] },
+      { heading: "Leverans", items: ["On-site idrifttagning", "Optimering & finjustering"] },
+    ],
     icon: (
       <svg className="h-7 w-7" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
         <path strokeLinecap="round" strokeLinejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.347a1.125 1.125 0 010 1.972l-11.54 6.347a1.125 1.125 0 01-1.667-.986V5.653z" />
@@ -40,8 +66,10 @@ const services = [
   },
   {
     title: "Simulering",
-    description:
-      "Testa innan ni bygger. Virtuell idrifttagning och flödessimulering som sparar tid, pengar och huvudvärk.",
+    description: "Testa innan ni bygger — minimera risker och optimera processer.",
+    subs: [
+      { heading: "Tjänster", items: ["Virtuell idrifttagning", "Flödessimulering", "Digital tvilling"] },
+    ],
     icon: (
       <svg className="h-7 w-7" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
         <path strokeLinecap="round" strokeLinejoin="round" d="M9.75 3.104v5.714a2.25 2.25 0 01-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.05-.75.082m.75-.082a24.301 24.301 0 014.5 0m0 0v5.714c0 .597.237 1.17.659 1.591L19.8 15.3M14.25 3.104c.251.023.501.05.75.082M19.8 15.3l-1.57.393A9.065 9.065 0 0112 15a9.065 9.065 0 00-6.23.693L5 14.5m14.8.8l1.402 1.402c1.232 1.232.65 3.318-1.067 3.611A48.309 48.309 0 0112 21c-2.773 0-5.491-.235-8.135-.687-1.718-.293-2.3-2.379-1.067-3.61L5 14.5" />
@@ -53,8 +81,10 @@ const services = [
   },
   {
     title: "IT-lösningar",
-    description:
-      "Industriella nätverk, cybersäkerhet och systemintegration. Vi kopplar ihop er teknik så att allt pratar med allt.",
+    description: "Vi kopplar ihop er teknik så att allt pratar med allt.",
+    subs: [
+      { heading: "Tjänster", items: ["Industriella nätverk", "Cybersäkerhet (OT/IT)", "Systemintegration"] },
+    ],
     icon: (
       <svg className="h-7 w-7" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
         <path strokeLinecap="round" strokeLinejoin="round" d="M5.25 14.25h13.5m-13.5 0a3 3 0 01-3-3m3 3a3 3 0 100 6h13.5a3 3 0 100-6m-16.5-3a3 3 0 013-3h13.5a3 3 0 013 3m-19.5 0a4.5 4.5 0 01.9-2.7L5.737 5.1a3.375 3.375 0 012.7-1.35h7.126c1.062 0 2.062.5 2.7 1.35l2.587 3.45a4.5 4.5 0 01.9 2.7m0 0a3 3 0 01-3 3m0 3h.008v.008h-.008V17.25zm0-6h.008v.008h-.008v-.008zm-3 6h.008v.008h-.008V17.25zm0-6h.008v.008h-.008v-.008z" />
@@ -66,8 +96,10 @@ const services = [
   },
   {
     title: "Ellösningar",
-    description:
-      "Kraft- och lågspänning, projektering och installation. Kompletta elsystem för industrin, från skiss till verklighet.",
+    description: "Kompletta elsystem för industrin — från skiss till verklighet.",
+    subs: [
+      { heading: "Tjänster", items: ["Kraft- & lågspänning", "Projektering & installation", "Automationsskåp"] },
+    ],
     icon: (
       <svg className="h-7 w-7" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
         <path strokeLinecap="round" strokeLinejoin="round" d="M12 18v-5.25m0 0a6.01 6.01 0 001.5-.189m-1.5.189a6.01 6.01 0 01-1.5-.189m3.75 7.478a12.06 12.06 0 01-4.5 0m3.75 2.383a14.406 14.406 0 01-3 0M14.25 18v-.192c0-.983.658-1.823 1.508-2.316a7.5 7.5 0 10-7.517 0c.85.493 1.509 1.333 1.509 2.316V18" />
@@ -179,7 +211,7 @@ export default function Home() {
               Vårt erbjudande
             </span>
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-gray-900 tracking-tight">
-              Sex discipliner.
+              Sju discipliner.
               <br />
               <span className="text-gray-400">En leverantör.</span>
             </h2>
@@ -193,7 +225,7 @@ export default function Home() {
             {services.map((service) => (
               <div
                 key={service.title}
-                className="group relative p-8 rounded-2xl border border-gray-100 bg-white hover:shadow-xl transition-all duration-500 hover:-translate-y-1 overflow-hidden"
+                className="group relative p-8 rounded-2xl border border-gray-100 bg-white hover:shadow-xl transition-all duration-500 hover:-translate-y-1 overflow-hidden flex flex-col"
               >
                 <div className={`absolute top-0 right-0 w-32 h-32 bg-gradient-to-br ${service.color} opacity-0 group-hover:opacity-5 rounded-full -translate-y-1/2 translate-x-1/2 transition-opacity duration-500`} />
                 <div className={`h-12 w-12 rounded-xl ${service.bgColor} ${service.textColor} flex items-center justify-center mb-5`}>
@@ -202,9 +234,28 @@ export default function Home() {
                 <h3 className="text-lg font-bold text-gray-900 mb-2">
                   {service.title}
                 </h3>
-                <p className="text-gray-500 leading-relaxed text-[15px]">
+                <p className="text-gray-500 leading-relaxed text-[15px] mb-4">
                   {service.description}
                 </p>
+                <div className="mt-auto space-y-3 pt-4 border-t border-gray-100">
+                  {service.subs.map((sub) => (
+                    <div key={sub.heading}>
+                      <p className="text-xs font-bold text-gray-400 uppercase tracking-wider mb-1.5">
+                        {sub.heading}
+                      </p>
+                      <div className="flex flex-wrap gap-1.5">
+                        {sub.items.map((item) => (
+                          <span
+                            key={item}
+                            className={`inline-block px-2.5 py-1 rounded-lg text-xs font-semibold ${service.bgColor} ${service.textColor}`}
+                          >
+                            {item}
+                          </span>
+                        ))}
+                      </div>
+                    </div>
+                  ))}
+                </div>
               </div>
             ))}
           </div>

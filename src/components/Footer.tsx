@@ -1,6 +1,7 @@
 const services = [
-  "Elkonstruktion",
   "Programmering",
+  "Elkonstruktion",
+  "Riskbedömning",
   "Idrifttagning",
   "Simulering",
   "IT-lösningar",
