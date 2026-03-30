@@ -485,11 +485,21 @@ export default function Home() {
 
             <div className="bg-white/[0.03] backdrop-blur-xl rounded-3xl p-8 sm:p-10 border border-white/10 shadow-2xl">
               <h3 className="text-xl font-bold text-white mb-6">Skicka en förfrågan</h3>
-              <form className="space-y-5">
+              <form
+                action="https://formsubmit.co/info@conro.se"
+                method="POST"
+                className="space-y-5"
+              >
+                <input type="hidden" name="_subject" value="Ny förfrågan från conrohemsida.vercel.app" />
+                <input type="hidden" name="_captcha" value="false" />
+                <input type="hidden" name="_next" value="https://conrohemsida.vercel.app/#kontakt" />
+                <input type="hidden" name="_template" value="table" />
                 <div>
                   <label className="block text-sm font-semibold text-gray-400 mb-2">Namn</label>
                   <input
                     type="text"
+                    name="namn"
+                    required
                     className="w-full rounded-xl bg-white/5 border border-white/10 px-4 py-3.5 text-white placeholder:text-gray-600 focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all"
                     placeholder="Ditt namn"
                   />
@@ -498,6 +508,8 @@ export default function Home() {
                   <label className="block text-sm font-semibold text-gray-400 mb-2">E-post</label>
                   <input
                     type="email"
+                    name="email"
+                    required
                     className="w-full rounded-xl bg-white/5 border border-white/10 px-4 py-3.5 text-white placeholder:text-gray-600 focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all"
                     placeholder="din@epost.se"
                   />
@@ -505,7 +517,9 @@ export default function Home() {
                 <div>
                   <label className="block text-sm font-semibold text-gray-400 mb-2">Meddelande</label>
                   <textarea
+                    name="meddelande"
                     rows={4}
+                    required
                     className="w-full rounded-xl bg-white/5 border border-white/10 px-4 py-3.5 text-white placeholder:text-gray-600 focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent resize-none transition-all"
                     placeholder="Beskriv ert projekt..."
                   />
