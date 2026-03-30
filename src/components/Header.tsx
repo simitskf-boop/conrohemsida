@@ -31,9 +31,9 @@ export default function Header() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-18 items-center justify-between">
           <Link href="/" className="flex items-center gap-3 group">
-            <div className="relative h-10 w-10 rounded-xl bg-gradient-to-br from-primary to-cyan-400 flex items-center justify-center shadow-lg shadow-primary/25 group-hover:shadow-primary/40 transition-shadow">
+            <div className="relative h-10 w-10 rounded-xl bg-gradient-to-br from-primary to-emerald-400 flex items-center justify-center shadow-lg shadow-primary/25 group-hover:shadow-primary/40 transition-shadow">
               <span className="text-white font-black text-xl">C</span>
-              <div className="absolute -inset-0.5 rounded-xl bg-gradient-to-br from-primary to-cyan-400 opacity-0 group-hover:opacity-30 blur transition-opacity" />
+              <div className="absolute -inset-0.5 rounded-xl bg-gradient-to-br from-primary to-emerald-400 opacity-0 group-hover:opacity-30 blur transition-opacity" />
             </div>
             <div>
               <span className="text-xl font-black tracking-tight text-gray-900">
@@ -57,7 +57,7 @@ export default function Header() {
             ))}
             <a
               href="#kontakt"
-              className="rounded-xl bg-gradient-to-r from-primary to-cyan-500 px-6 py-2.5 text-sm font-bold text-white hover:shadow-lg hover:shadow-primary/30 transition-all hover:-translate-y-0.5"
+              className="rounded-xl bg-gradient-to-r from-primary to-emerald-500 px-6 py-2.5 text-sm font-bold text-white hover:shadow-lg hover:shadow-primary/30 transition-all hover:-translate-y-0.5"
             >
               Kontakta oss
             </a>
@@ -95,7 +95,7 @@ export default function Header() {
             <a
               href="#kontakt"
               onClick={() => setMenuOpen(false)}
-              className="block mt-4 rounded-xl bg-gradient-to-r from-primary to-cyan-500 px-5 py-3 text-center text-sm font-bold text-white"
+              className="block mt-4 rounded-xl bg-gradient-to-r from-primary to-emerald-500 px-5 py-3 text-center text-sm font-bold text-white"
             >
               Kontakta oss
             </a>

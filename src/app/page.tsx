@@ -21,9 +21,9 @@ const services = [
         <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5" />
       </svg>
     ),
-    color: "from-cyan-400 to-blue-500",
-    bgColor: "bg-cyan-50",
-    textColor: "text-cyan-600",
+    color: "from-blue-400 to-indigo-500",
+    bgColor: "bg-blue-50",
+    textColor: "text-blue-600",
   },
   {
     title: "Idrifttagning",
@@ -73,7 +73,7 @@ const services = [
         <path strokeLinecap="round" strokeLinejoin="round" d="M12 18v-5.25m0 0a6.01 6.01 0 001.5-.189m-1.5.189a6.01 6.01 0 01-1.5-.189m3.75 7.478a12.06 12.06 0 01-4.5 0m3.75 2.383a14.406 14.406 0 01-3 0M14.25 18v-.192c0-.983.658-1.823 1.508-2.316a7.5 7.5 0 10-7.517 0c.85.493 1.509 1.333 1.509 2.316V18" />
       </svg>
     ),
-    color: "from-teal-400 to-cyan-500",
+    color: "from-teal-400 to-emerald-500",
     bgColor: "bg-teal-50",
     textColor: "text-teal-600",
   },
@@ -96,7 +96,7 @@ export default function Home() {
         <div className="absolute inset-0">
           {/* Floating orbs */}
           <div className="absolute top-20 left-[10%] w-72 h-72 bg-primary/20 rounded-full blur-[100px] animate-pulse-glow" />
-          <div className="absolute bottom-20 right-[15%] w-96 h-96 bg-cyan-400/15 rounded-full blur-[120px] animate-pulse-glow" style={{ animationDelay: "2s" }} />
+          <div className="absolute bottom-20 right-[15%] w-96 h-96 bg-emerald-400/15 rounded-full blur-[120px] animate-pulse-glow" style={{ animationDelay: "2s" }} />
           <div className="absolute top-1/2 left-1/2 w-64 h-64 bg-orange-500/10 rounded-full blur-[80px] animate-pulse-glow" style={{ animationDelay: "4s" }} />
         </div>
 
@@ -108,7 +108,7 @@ export default function Home() {
             </svg>
           </div>
           <div className="absolute top-[60%] right-[10%] animate-float-slow">
-            <svg width="40" height="40" viewBox="0 0 40 40" className="text-cyan-400/20">
+            <svg width="40" height="40" viewBox="0 0 40 40" className="text-emerald-400/20">
               <circle cx="20" cy="20" r="20" fill="currentColor" />
             </svg>
           </div>
@@ -150,7 +150,7 @@ export default function Home() {
             <div className="mt-10 flex flex-col sm:flex-row gap-4">
               <a
                 href="#tjanster"
-                className="group rounded-xl bg-gradient-to-r from-primary to-cyan-400 px-8 py-4 text-base font-bold text-white shadow-lg shadow-primary/25 hover:shadow-primary/40 transition-all hover:-translate-y-0.5 text-center inline-flex items-center justify-center gap-2"
+                className="group rounded-xl bg-gradient-to-r from-primary to-emerald-400 px-8 py-4 text-base font-bold text-white shadow-lg shadow-primary/25 hover:shadow-primary/40 transition-all hover:-translate-y-0.5 text-center inline-flex items-center justify-center gap-2"
               >
                 Utforska våra tjänster
                 <svg className="h-4 w-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2.5}>
@@ -221,7 +221,7 @@ export default function Home() {
                 <div className="text-5xl sm:text-6xl font-black text-transparent bg-clip-text bg-gradient-to-b from-white to-gray-400">
                   {stat.value}
                 </div>
-                <div className="mt-2 text-sm sm:text-base text-cyan-200/70 font-medium uppercase tracking-wide">
+                <div className="mt-2 text-sm sm:text-base text-emerald-200/70 font-medium uppercase tracking-wide">
                   {stat.label}
                 </div>
               </div>
@@ -264,7 +264,7 @@ export default function Home() {
                   { title: "Långsiktigt partnerskap", desc: "Vi finns kvar efter leverans" },
                 ].map((item) => (
                   <div key={item.title} className="flex items-start gap-3 p-4 rounded-xl bg-white shadow-sm">
-                    <div className="h-8 w-8 rounded-lg bg-gradient-to-br from-primary to-cyan-400 flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <div className="h-8 w-8 rounded-lg bg-gradient-to-br from-primary to-emerald-400 flex items-center justify-center flex-shrink-0 mt-0.5">
                       <svg className="h-4 w-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={3}>
                         <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
                       </svg>
@@ -283,18 +283,18 @@ export default function Home() {
                 <div className="absolute inset-0 hero-grid opacity-30" />
                 {/* Decorative floating elements */}
                 <div className="absolute top-8 right-8 animate-float">
-                  <div className="h-16 w-16 rounded-2xl bg-gradient-to-br from-cyan-400/30 to-transparent backdrop-blur-sm border border-white/10" />
+                  <div className="h-16 w-16 rounded-2xl bg-gradient-to-br from-emerald-400/30 to-transparent backdrop-blur-sm border border-white/10" />
                 </div>
                 <div className="absolute bottom-12 left-8 animate-float-slow">
                   <div className="h-12 w-12 rounded-full bg-gradient-to-br from-orange-400/30 to-transparent backdrop-blur-sm border border-white/10" />
                 </div>
 
                 <div className="relative text-center z-10">
-                  <div className="mx-auto h-24 w-24 rounded-3xl bg-gradient-to-br from-primary to-cyan-400 flex items-center justify-center mb-6 shadow-2xl shadow-primary/30">
+                  <div className="mx-auto h-24 w-24 rounded-3xl bg-gradient-to-br from-primary to-emerald-400 flex items-center justify-center mb-6 shadow-2xl shadow-primary/30">
                     <span className="text-white font-black text-4xl">C</span>
                   </div>
                   <p className="text-2xl font-black text-white mb-2">CONRO</p>
-                  <p className="text-cyan-300/60 text-sm font-semibold uppercase tracking-[0.25em]">
+                  <p className="text-emerald-300/60 text-sm font-semibold uppercase tracking-[0.25em]">
                     Automation &amp; Industri
                   </p>
                   <div className="mt-8 flex justify-center gap-3">
@@ -345,7 +345,7 @@ export default function Home() {
                 title: "Utveckling & Test",
                 description:
                   "Vi bygger, programmerar och simulerar. Allt testas rigoröst innan det lämnar vårt labb.",
-                color: "from-primary to-cyan-400",
+                color: "from-primary to-emerald-400",
               },
               {
                 step: "03",
@@ -376,7 +376,7 @@ export default function Home() {
         <div className="absolute inset-0 hero-grid" />
         <div className="absolute inset-0">
           <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-primary/10 rounded-full blur-[150px]" />
-          <div className="absolute bottom-0 left-0 w-[400px] h-[400px] bg-cyan-400/10 rounded-full blur-[120px]" />
+          <div className="absolute bottom-0 left-0 w-[400px] h-[400px] bg-emerald-400/10 rounded-full blur-[120px]" />
         </div>
 
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -427,7 +427,7 @@ export default function Home() {
                   },
                 ].map((item) => (
                   <div key={item.label} className="flex items-center gap-4 p-4 rounded-xl bg-white/5 border border-white/10">
-                    <div className="h-11 w-11 rounded-xl bg-gradient-to-br from-primary to-cyan-400 flex items-center justify-center flex-shrink-0 text-white">
+                    <div className="h-11 w-11 rounded-xl bg-gradient-to-br from-primary to-emerald-400 flex items-center justify-center flex-shrink-0 text-white">
                       {item.icon}
                     </div>
                     <div>
@@ -468,7 +468,7 @@ export default function Home() {
                 </div>
                 <button
                   type="submit"
-                  className="w-full rounded-xl bg-gradient-to-r from-primary to-cyan-400 px-6 py-4 text-base font-bold text-white shadow-lg shadow-primary/25 hover:shadow-primary/40 transition-all hover:-translate-y-0.5"
+                  className="w-full rounded-xl bg-gradient-to-r from-primary to-emerald-400 px-6 py-4 text-base font-bold text-white shadow-lg shadow-primary/25 hover:shadow-primary/40 transition-all hover:-translate-y-0.5"
                 >
                   Skicka förfrågan
                 </button>
