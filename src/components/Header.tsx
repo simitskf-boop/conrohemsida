@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import ThemeToggle from "./ThemeToggle";
 
 const navItems = [
   { label: "Tjänster", href: "#tjanster" },
@@ -25,7 +26,7 @@ export default function Header() {
     <header
       className={`sticky top-0 z-50 transition-all duration-300 ${
         scrolled
-          ? "bg-white/95 backdrop-blur shadow-sm"
+          ? "bg-white/95 dark:bg-[#0a1628]/95 backdrop-blur shadow-sm"
           : "bg-transparent"
       }`}
     >
@@ -42,16 +43,17 @@ export default function Header() {
             />
           </Link>
 
-          <nav className="hidden md:flex items-center gap-8">
+          <nav className="hidden md:flex items-center gap-6">
             {navItems.map((item) => (
               <a
                 key={item.href}
                 href={item.href}
-                className="relative text-sm font-semibold text-gray-600 hover:text-primary transition-colors after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-primary after:transition-all hover:after:w-full"
+                className="relative text-sm font-semibold text-gray-600 dark:text-gray-300 hover:text-primary transition-colors after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-primary after:transition-all hover:after:w-full"
               >
                 {item.label}
               </a>
             ))}
+            <ThemeToggle />
             <a
               href="#kontakt"
               className="rounded-xl bg-gradient-to-r from-primary to-emerald-500 px-6 py-2.5 text-sm font-bold text-white hover:shadow-lg hover:shadow-primary/30 transition-all hover:-translate-y-0.5"
@@ -77,14 +79,14 @@ export default function Header() {
       </div>
 
       {menuOpen && (
-        <div className="md:hidden bg-white border-t border-gray-100 shadow-lg">
+        <div className="md:hidden bg-white dark:bg-[#0a1628] border-t border-gray-100 dark:border-white/10 shadow-lg">
           <div className="px-4 py-6 space-y-4">
             {navItems.map((item) => (
               <a
                 key={item.href}
                 href={item.href}
                 onClick={() => setMenuOpen(false)}
-                className="block text-base font-semibold text-gray-700 hover:text-primary transition-colors"
+                className="block text-base font-semibold text-gray-700 dark:text-gray-300 hover:text-primary transition-colors"
               >
                 {item.label}
               </a>

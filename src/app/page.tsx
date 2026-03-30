@@ -185,13 +185,13 @@ export default function Home() {
       </section>
 
       {/* Services Section */}
-      <section id="tjanster" className="py-24 sm:py-32 bg-white">
+      <section id="tjanster" className="py-24 sm:py-32 bg-white dark:bg-[#0a1628]">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="max-w-2xl mb-16">
             <span className="inline-block text-sm font-bold text-primary uppercase tracking-widest mb-3 bg-primary/5 px-3 py-1 rounded-full">
               Vårt erbjudande
             </span>
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-gray-900 tracking-tight">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-gray-900 dark:text-white tracking-tight">
               Sju discipliner.
               <br />
               <span className="text-gray-400">En leverantör.</span>
@@ -206,19 +206,19 @@ export default function Home() {
             {services.map((service) => (
               <div
                 key={service.title}
-                className="group relative p-8 rounded-2xl border border-gray-100 bg-white hover:shadow-xl transition-all duration-500 hover:-translate-y-1 overflow-hidden flex flex-col"
+                className="group relative p-8 rounded-2xl border border-gray-100 dark:border-white/10 bg-white dark:bg-white/5 hover:shadow-xl transition-all duration-500 hover:-translate-y-1 overflow-hidden flex flex-col"
               >
                 <div className={`absolute top-0 right-0 w-32 h-32 bg-gradient-to-br ${service.color} opacity-0 group-hover:opacity-5 rounded-full -translate-y-1/2 translate-x-1/2 transition-opacity duration-500`} />
                 <div className={`h-12 w-12 rounded-xl ${service.bgColor} ${service.textColor} flex items-center justify-center mb-5`}>
                   {service.icon}
                 </div>
-                <h3 className="text-lg font-bold text-gray-900 mb-2">
+                <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-2">
                   {service.title}
                 </h3>
-                <p className="text-gray-500 leading-relaxed text-[15px] mb-4">
+                <p className="text-gray-500 dark:text-gray-400 leading-relaxed text-[15px] mb-4">
                   {service.description}
                 </p>
-                <div className="mt-auto space-y-3 pt-4 border-t border-gray-100">
+                <div className="mt-auto space-y-3 pt-4 border-t border-gray-100 dark:border-white/10">
                   {service.subs.map((sub) => (
                     <div key={sub.heading}>
                       <p className="text-xs font-bold text-gray-400 uppercase tracking-wider mb-1.5">
@@ -272,14 +272,14 @@ export default function Home() {
       </section>
 
       {/* About Section */}
-      <section id="om-oss" className="py-24 sm:py-32 bg-section-bg">
+      <section id="om-oss" className="py-24 sm:py-32 bg-section-bg dark:bg-[#0d1f35]">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div>
               <span className="inline-block text-sm font-bold text-primary uppercase tracking-widest mb-3 bg-primary/5 px-3 py-1 rounded-full">
                 Om Conro
               </span>
-              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-gray-900 tracking-tight leading-tight">
+              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-gray-900 dark:text-white tracking-tight leading-tight">
                 Vi löser problem
                 <br />
                 som andra säger
@@ -304,14 +304,14 @@ export default function Home() {
                   { title: "Helhetsleverantör", desc: "Allt under ett tak" },
                   { title: "Långsiktigt partnerskap", desc: "Vi finns kvar efter leverans" },
                 ].map((item) => (
-                  <div key={item.title} className="flex items-start gap-3 p-4 rounded-xl bg-white shadow-sm">
+                  <div key={item.title} className="flex items-start gap-3 p-4 rounded-xl bg-white dark:bg-white/5 shadow-sm">
                     <div className="h-8 w-8 rounded-lg bg-gradient-to-br from-primary to-emerald-400 flex items-center justify-center flex-shrink-0 mt-0.5">
                       <svg className="h-4 w-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={3}>
                         <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
                       </svg>
                     </div>
                     <div>
-                      <span className="text-gray-900 font-bold text-sm">{item.title}</span>
+                      <span className="text-gray-900 dark:text-white font-bold text-sm">{item.title}</span>
                       <span className="block text-gray-400 text-xs mt-0.5">{item.desc}</span>
                     </div>
                   </div>
@@ -359,13 +359,13 @@ export default function Home() {
       </section>
 
       {/* Process / Why Conro */}
-      <section id="varfor-conro" className="py-24 sm:py-32 bg-white">
+      <section id="varfor-conro" className="py-24 sm:py-32 bg-white dark:bg-[#0a1628]">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-2xl mx-auto mb-20">
             <span className="inline-block text-sm font-bold text-primary uppercase tracking-widest mb-3 bg-primary/5 px-3 py-1 rounded-full">
               Vår process
             </span>
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-gray-900 tracking-tight">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-gray-900 dark:text-white tracking-tight">
               Tre steg till en
               <br />
               <span className="gradient-text">fungerande anläggning</span>
@@ -403,10 +403,10 @@ export default function Home() {
                 <div className={`mx-auto h-14 w-14 rounded-2xl bg-gradient-to-br ${phase.color} flex items-center justify-center mb-6 shadow-lg group-hover:scale-110 transition-transform duration-300`}>
                   <span className="text-white font-black text-lg">{phase.step}</span>
                 </div>
-                <h3 className="text-xl font-bold text-gray-900 mb-3">
+                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-3">
                   {phase.title}
                 </h3>
-                <p className="text-gray-500 leading-relaxed max-w-xs mx-auto">
+                <p className="text-gray-500 dark:text-gray-400 leading-relaxed max-w-xs mx-auto">
                   {phase.description}
                 </p>
               </div>
