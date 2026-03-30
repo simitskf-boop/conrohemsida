@@ -123,38 +123,19 @@ export default function Home() {
     <>
       {/* Hero Section */}
       <section className="relative min-h-[90vh] flex items-center bg-[#0a1628] overflow-hidden">
-        {/* Animated background */}
-        <div className="absolute inset-0 hero-grid" />
-        <div className="absolute inset-0">
-          {/* Floating orbs */}
-          <div className="absolute top-20 left-[10%] w-72 h-72 bg-primary/20 rounded-full blur-[100px] animate-pulse-glow" />
-          <div className="absolute bottom-20 right-[15%] w-96 h-96 bg-emerald-400/15 rounded-full blur-[120px] animate-pulse-glow" style={{ animationDelay: "2s" }} />
-          <div className="absolute top-1/2 left-1/2 w-64 h-64 bg-orange-500/10 rounded-full blur-[80px] animate-pulse-glow" style={{ animationDelay: "4s" }} />
-        </div>
-
-        {/* Floating geometric shapes */}
-        <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <div className="absolute top-[15%] right-[20%] animate-float">
-            <svg width="60" height="60" viewBox="0 0 60 60" className="text-primary/20">
-              <rect width="60" height="60" rx="12" fill="currentColor" transform="rotate(15 30 30)" />
-            </svg>
-          </div>
-          <div className="absolute top-[60%] right-[10%] animate-float-slow">
-            <svg width="40" height="40" viewBox="0 0 40 40" className="text-emerald-400/20">
-              <circle cx="20" cy="20" r="20" fill="currentColor" />
-            </svg>
-          </div>
-          <div className="absolute top-[30%] left-[5%] animate-float-delay">
-            <svg width="50" height="50" viewBox="0 0 50 50" className="text-orange-400/15">
-              <polygon points="25,5 45,45 5,45" fill="currentColor" />
-            </svg>
-          </div>
-          <div className="absolute bottom-[20%] left-[25%] animate-float">
-            <svg width="35" height="35" viewBox="0 0 35 35" className="text-primary/15">
-              <rect width="35" height="35" rx="8" fill="currentColor" transform="rotate(-10 17.5 17.5)" />
-            </svg>
-          </div>
-        </div>
+        {/* Video background */}
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          className="absolute inset-0 w-full h-full object-cover opacity-30"
+        >
+          <source src="/hero-video-1.mp4" type="video/mp4" />
+        </video>
+        {/* Dark overlay with gradient */}
+        <div className="absolute inset-0 bg-gradient-to-r from-[#0a1628]/90 via-[#0a1628]/70 to-[#0a1628]/80" />
+        <div className="absolute inset-0 hero-grid opacity-30" />
 
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-20">
           <div className="max-w-3xl">
@@ -263,8 +244,17 @@ export default function Home() {
       </section>
 
       {/* Stats Section */}
-      <section className="relative py-20 bg-gradient-to-r from-[#0a1628] via-primary-dark to-[#0a1628] overflow-hidden">
-        <div className="absolute inset-0 hero-grid opacity-50" />
+      <section className="relative py-20 bg-[#0a1628] overflow-hidden">
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          className="absolute inset-0 w-full h-full object-cover opacity-20"
+        >
+          <source src="/hero-video-3.mp4" type="video/mp4" />
+        </video>
+        <div className="absolute inset-0 bg-gradient-to-r from-[#0a1628]/80 via-primary-dark/60 to-[#0a1628]/80" />
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
             {stats.map((stat) => (
@@ -330,17 +320,19 @@ export default function Home() {
             </div>
 
             <div className="relative">
-              <div className="aspect-square rounded-3xl bg-gradient-to-br from-[#0a1628] to-primary-dark p-10 flex items-center justify-center relative overflow-hidden">
-                <div className="absolute inset-0 hero-grid opacity-30" />
-                {/* Decorative floating elements */}
-                <div className="absolute top-8 right-8 animate-float">
-                  <div className="h-16 w-16 rounded-2xl bg-gradient-to-br from-emerald-400/30 to-transparent backdrop-blur-sm border border-white/10" />
-                </div>
-                <div className="absolute bottom-12 left-8 animate-float-slow">
-                  <div className="h-12 w-12 rounded-full bg-gradient-to-br from-orange-400/30 to-transparent backdrop-blur-sm border border-white/10" />
-                </div>
+              <div className="aspect-square rounded-3xl bg-[#0a1628] flex items-center justify-center relative overflow-hidden">
+                <video
+                  autoPlay
+                  muted
+                  loop
+                  playsInline
+                  className="absolute inset-0 w-full h-full object-cover opacity-25"
+                >
+                  <source src="/hero-video-2.mp4" type="video/mp4" />
+                </video>
+                <div className="absolute inset-0 bg-gradient-to-br from-[#0a1628]/70 to-primary-dark/50" />
 
-                <div className="relative text-center z-10">
+                <div className="relative text-center z-10 p-10">
                   <img
                     src="/conro-logo.png"
                     alt="Conro"
