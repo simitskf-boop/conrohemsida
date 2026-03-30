@@ -186,8 +186,12 @@ export default function Home() {
       </section>
 
       {/* Services Section */}
-      <section id="tjanster" className="py-24 sm:py-32 bg-white dark:bg-[#0a1628]">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <section id="tjanster" className="relative py-24 sm:py-32 bg-white dark:bg-[#0a1628] overflow-hidden">
+        <video autoPlay muted loop playsInline className="absolute inset-0 w-full h-full object-cover opacity-0 dark:opacity-10">
+          <source src="/video-services.mp4" type="video/mp4" />
+        </video>
+        <div className="absolute inset-0 bg-white/80 dark:bg-[#0a1628]/80" />
+        <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="max-w-2xl mb-16">
             <span className="inline-block text-sm font-bold text-primary uppercase tracking-widest mb-3 bg-primary/5 px-3 py-1 rounded-full">
               Vårt erbjudande
@@ -273,8 +277,12 @@ export default function Home() {
       </section>
 
       {/* About Section */}
-      <section id="om-oss" className="py-24 sm:py-32 bg-section-bg dark:bg-[#0d1f35]">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <section id="om-oss" className="relative py-24 sm:py-32 bg-section-bg dark:bg-[#0d1f35] overflow-hidden">
+        <video autoPlay muted loop playsInline className="absolute inset-0 w-full h-full object-cover opacity-0 dark:opacity-10">
+          <source src="/video-about.mp4" type="video/mp4" />
+        </video>
+        <div className="absolute inset-0 bg-section-bg/80 dark:bg-[#0d1f35]/80" />
+        <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div>
               <span className="inline-block text-sm font-bold text-primary uppercase tracking-widest mb-3 bg-primary/5 px-3 py-1 rounded-full">
@@ -360,8 +368,12 @@ export default function Home() {
       </section>
 
       {/* Process / Why Conro */}
-      <section id="varfor-conro" className="py-24 sm:py-32 bg-white dark:bg-[#0a1628]">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <section id="varfor-conro" className="relative py-24 sm:py-32 bg-white dark:bg-[#0a1628] overflow-hidden">
+        <video autoPlay muted loop playsInline className="absolute inset-0 w-full h-full object-cover opacity-0 dark:opacity-10">
+          <source src="/video-process.mp4" type="video/mp4" />
+        </video>
+        <div className="absolute inset-0 bg-white/80 dark:bg-[#0a1628]/80" />
+        <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-2xl mx-auto mb-20">
             <span className="inline-block text-sm font-bold text-primary uppercase tracking-widest mb-3 bg-primary/5 px-3 py-1 rounded-full">
               Vår process
@@ -418,11 +430,11 @@ export default function Home() {
 
       {/* CTA / Contact Section */}
       <section id="kontakt" className="relative py-24 sm:py-32 bg-[#0a1628] overflow-hidden">
+        <video autoPlay muted loop playsInline className="absolute inset-0 w-full h-full object-cover opacity-15">
+          <source src="/video-contact.mp4" type="video/mp4" />
+        </video>
+        <div className="absolute inset-0 bg-[#0a1628]/75" />
         <div className="absolute inset-0 hero-grid" />
-        <div className="absolute inset-0">
-          <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-primary/10 rounded-full blur-[150px]" />
-          <div className="absolute bottom-0 left-0 w-[400px] h-[400px] bg-emerald-400/10 rounded-full blur-[120px]" />
-        </div>
 
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
