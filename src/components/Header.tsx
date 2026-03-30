@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 const navItems = [
   { label: "Tjänster", href: "#tjanster" },
@@ -30,19 +31,15 @@ export default function Header() {
     >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-18 items-center justify-between">
-          <Link href="/" className="flex items-center gap-3 group">
-            <div className="relative h-10 w-10 rounded-xl bg-gradient-to-br from-primary to-emerald-400 flex items-center justify-center shadow-lg shadow-primary/25 group-hover:shadow-primary/40 transition-shadow">
-              <span className="text-white font-black text-xl">C</span>
-              <div className="absolute -inset-0.5 rounded-xl bg-gradient-to-br from-primary to-emerald-400 opacity-0 group-hover:opacity-30 blur transition-opacity" />
-            </div>
-            <div>
-              <span className="text-xl font-black tracking-tight text-gray-900">
-                CONRO
-              </span>
-              <span className="hidden sm:block text-[10px] uppercase tracking-[0.2em] text-gray-400 font-semibold -mt-1">
-                Automation & Industri
-              </span>
-            </div>
+          <Link href="/" className="flex items-center group">
+            <Image
+              src="/conro-logo.png"
+              alt="Conro"
+              width={140}
+              height={46}
+              className="h-9 w-auto"
+              priority
+            />
           </Link>
 
           <nav className="hidden md:flex items-center gap-8">

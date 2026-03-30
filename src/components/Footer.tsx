@@ -20,16 +20,12 @@ export default function Footer() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
           <div className="md:col-span-1">
-            <div className="flex items-center gap-3 mb-5">
-              <div className="h-10 w-10 rounded-xl bg-gradient-to-br from-primary to-emerald-400 flex items-center justify-center">
-                <span className="text-white font-black text-xl">C</span>
-              </div>
-              <div>
-                <span className="text-lg font-black text-white">CONRO</span>
-                <span className="block text-[10px] uppercase tracking-[0.2em] text-gray-600 font-semibold -mt-0.5">
-                  Automation &amp; Industri
-                </span>
-              </div>
+            <div className="mb-5">
+              <img
+                src="/conro-logo.png"
+                alt="Conro"
+                className="h-10 w-auto"
+              />
             </div>
             <p className="text-sm leading-relaxed text-gray-500">
               Helhetslösningar inom automation och industri.

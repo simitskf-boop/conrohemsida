@@ -290,10 +290,11 @@ export default function Home() {
                 </div>
 
                 <div className="relative text-center z-10">
-                  <div className="mx-auto h-24 w-24 rounded-3xl bg-gradient-to-br from-primary to-emerald-400 flex items-center justify-center mb-6 shadow-2xl shadow-primary/30">
-                    <span className="text-white font-black text-4xl">C</span>
-                  </div>
-                  <p className="text-2xl font-black text-white mb-2">CONRO</p>
+                  <img
+                    src="/conro-logo.png"
+                    alt="Conro"
+                    className="mx-auto h-20 w-auto mb-6"
+                  />
                   <p className="text-emerald-300/60 text-sm font-semibold uppercase tracking-[0.25em]">
                     Automation &amp; Industri
                   </p>
