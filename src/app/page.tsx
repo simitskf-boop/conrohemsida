@@ -181,7 +181,7 @@ export default function Home() {
 
       {/* Services Section */}
       <section id="tjanster" className="relative py-24 sm:py-32 bg-white dark:bg-[#0a1628] overflow-hidden">
-        <VideoBackground src="/video-services.mp4" className="opacity-10 dark:opacity-15" />
+        <VideoBackground src="/video-services.mp4" className="opacity-25 dark:opacity-15" />
         <div className="absolute inset-0 bg-white/85 dark:bg-[#0a1628]/80" />
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="max-w-2xl mb-16">
@@ -262,7 +262,7 @@ export default function Home() {
 
       {/* About Section */}
       <section id="om-oss" className="relative py-24 sm:py-32 bg-section-bg dark:bg-[#0d1f35] overflow-hidden">
-        <VideoBackground src="/video-about.mp4" className="opacity-10 dark:opacity-15" />
+        <VideoBackground src="/video-about.mp4" className="opacity-25 dark:opacity-15" />
         <div className="absolute inset-0 bg-section-bg/85 dark:bg-[#0d1f35]/80" />
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
@@ -343,7 +343,7 @@ export default function Home() {
 
       {/* Process / Why Conro */}
       <section id="varfor-conro" className="relative py-24 sm:py-32 bg-white dark:bg-[#0a1628] overflow-hidden">
-        <VideoBackground src="/video-process.mp4" className="opacity-10 dark:opacity-15" />
+        <VideoBackground src="/video-process.mp4" className="opacity-25 dark:opacity-15" />
         <div className="absolute inset-0 bg-white/85 dark:bg-[#0a1628]/80" />
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-2xl mx-auto mb-20">
