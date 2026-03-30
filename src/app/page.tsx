@@ -127,7 +127,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative min-h-[90vh] flex items-center bg-[#0a1628] overflow-hidden">
         {/* Video background */}
-        <VideoBackground src="/hero-video-1.mp4" className="opacity-30" />
+        <VideoBackground src="/hero-video-1.mp4" className="opacity-40" />
         {/* Dark overlay with gradient */}
         <div className="absolute inset-0 bg-gradient-to-r from-[#0a1628]/90 via-[#0a1628]/70 to-[#0a1628]/80" />
         <div className="absolute inset-0 hero-grid opacity-30" />
@@ -181,7 +181,7 @@ export default function Home() {
 
       {/* Services Section */}
       <section id="tjanster" className="relative py-24 sm:py-32 bg-white dark:bg-[#0a1628] overflow-hidden">
-        <VideoBackground src="/video-services.mp4" className="opacity-25 dark:opacity-15" />
+        <VideoBackground src="/video-services.mp4" className="opacity-30 dark:opacity-20" />
         <div className="absolute inset-0 bg-white/85 dark:bg-[#0a1628]/80" />
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="max-w-2xl mb-16">
@@ -242,7 +242,7 @@ export default function Home() {
 
       {/* Stats Section */}
       <section className="relative py-20 bg-[#0a1628] overflow-hidden">
-        <VideoBackground src="/hero-video-3.mp4" className="opacity-20" />
+        <VideoBackground src="/hero-video-3.mp4" className="opacity-30" />
         <div className="absolute inset-0 bg-gradient-to-r from-[#0a1628]/80 via-primary-dark/60 to-[#0a1628]/80" />
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
@@ -262,7 +262,7 @@ export default function Home() {
 
       {/* About Section */}
       <section id="om-oss" className="relative py-24 sm:py-32 bg-section-bg dark:bg-[#0d1f35] overflow-hidden">
-        <VideoBackground src="/video-about.mp4" className="opacity-25 dark:opacity-15" />
+        <VideoBackground src="/video-about.mp4" className="opacity-30 dark:opacity-20" />
         <div className="absolute inset-0 bg-section-bg/85 dark:bg-[#0d1f35]/80" />
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
@@ -312,7 +312,7 @@ export default function Home() {
 
             <div className="relative">
               <div className="aspect-square rounded-3xl bg-[#0a1628] flex items-center justify-center relative overflow-hidden">
-                <VideoBackground src="/hero-video-2.mp4" className="opacity-25" />
+                <VideoBackground src="/hero-video-2.mp4" className="opacity-30" />
                 <div className="absolute inset-0 bg-gradient-to-br from-[#0a1628]/70 to-primary-dark/50" />
 
                 <div className="relative text-center z-10 p-10">
@@ -343,7 +343,7 @@ export default function Home() {
 
       {/* Process / Why Conro */}
       <section id="varfor-conro" className="relative py-24 sm:py-32 bg-white dark:bg-[#0a1628] overflow-hidden">
-        <VideoBackground src="/video-process.mp4" className="opacity-25 dark:opacity-15" />
+        <VideoBackground src="/video-process.mp4" className="opacity-30 dark:opacity-20" />
         <div className="absolute inset-0 bg-white/85 dark:bg-[#0a1628]/80" />
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-2xl mx-auto mb-20">
@@ -402,7 +402,7 @@ export default function Home() {
 
       {/* CTA / Contact Section */}
       <section id="kontakt" className="relative py-24 sm:py-32 bg-[#0a1628] overflow-hidden">
-        <VideoBackground src="/video-contact.mp4" className="opacity-15" />
+        <VideoBackground src="/video-contact.mp4" className="opacity-25" />
         <div className="absolute inset-0 bg-[#0a1628]/75" />
         <div className="absolute inset-0 hero-grid" />
 
