@@ -1,0 +1,222 @@
+{
+  "Metadata": {
+    "title": "Conro | Automation & Industrial Solutions",
+    "description": "Conro delivers automation products and industrial solutions in electrical design, programming, commissioning, simulation, IT and electrical solutions.",
+    "ogDescription": "Complete solutions in automation and industry — from concept to operational facility."
+  },
+  "Header": {
+    "services": "Services",
+    "about": "About us",
+    "whyConro": "Why Conro",
+    "contact": "Contact",
+    "cta": "Contact us",
+    "menuAriaLabel": "Menu"
+  },
+  "Hero": {
+    "badge": "Automation & Industrial Solutions",
+    "headline1": "We build",
+    "headline2": "the future's",
+    "headline3": "industry",
+    "description": "Electrical design. Programming. Commissioning. Simulation.",
+    "descriptionHighlight": " We take you from idea to operational facility",
+    "descriptionEnd": " — and ensure stable and efficient operation.",
+    "ctaPrimary": "Explore our services",
+    "ctaSecondary": "Talk to us"
+  },
+  "TrustLogos": {
+    "label": "Tools & platforms we work with"
+  },
+  "Services": {
+    "label": "Our offering",
+    "heading1": "Seven disciplines.",
+    "heading2": "One supplier.",
+    "description": "We gather the expertise under one roof so you don't have to coordinate five different consulting firms.",
+    "programming": {
+      "title": "Programming",
+      "description": "We develop control systems and applications that make your production smarter.",
+      "detailText": "We develop tailor-made control systems and software solutions that give you full control over your production processes. From PLC programming in Siemens TIA Portal and Allen Bradley to advanced HMI/SCADA solutions and AI-driven automation — we have the expertise to take your system to the next level.",
+      "workflowTitle": "Our approach",
+      "workflowText": "We start with a thorough analysis of your existing systems and processes. Then we design a solution tailored to your specific requirements, develop and test rigorously before delivery, and finally implement on-site with full support.",
+      "helpTitle": "We help you with",
+      "helpItems": "PLC programming, HMI/SCADA design, Application development, C#, C++, JavaScript, AI optimization, System integration, Software upgrades",
+      "sub0heading": "PLC",
+      "sub0items": "TIA Portal, Allen Bradley, Codesys",
+      "sub0hoverDetail": "We develop robust PLC programs for everything from simple sequences to complex process control systems. Whether you run Siemens, Rockwell, or Codesys-based platforms, we have the experience to deliver.",
+      "sub1heading": "HMI / SCADA",
+      "sub1items": "WinCC, FactoryTalk, Ignition",
+      "sub1hoverDetail": "We design operator interfaces that give you full overview and control. From local HMI panels to scalable SCADA systems with alarms, trends, and reporting.",
+      "sub2heading": "Application",
+      "sub2items": "C#, C++, JavaScript etc.",
+      "sub2hoverDetail": "Custom applications for data collection, system integration, and process monitoring. We build everything from Windows services to web interfaces.",
+      "sub3heading": "AI & Intelligent Automation",
+      "sub3items": "AI-driven optimization, Predictive maintenance, Machine learning",
+      "sub3hoverDetail": "We help you leverage AI and machine learning to optimize processes, predict maintenance needs, and make data-driven decisions in real time."
+    },
+    "electrical": {
+      "title": "Electrical Design",
+      "description": "Complete electrical design — from schematics to finished documentation.",
+      "detailText": "Complete electrical design from requirements specification to final delivery. We produce professional electrical schematics, layout drawings and accompanying documentation in EPLAN and ElproCAD — always according to applicable standards and with CE marking.",
+      "workflowTitle": "Our approach",
+      "workflowText": "We start from your requirements and conditions, produce complete schematics and layouts, review and quality-assure all documentation, and deliver ready for installation.",
+      "helpTitle": "We help you with",
+      "helpItems": "Schematics & layouts, Component selection, CE documentation, Upgrades, Reviews",
+      "sub0heading": "Tools",
+      "sub0items": "EPLAN, ElproCAD",
+      "sub0hoverDetail": "We work in the industry's leading tools to produce clear, standardized electrical schematics and layouts that facilitate installation and maintenance.",
+      "sub1heading": "Delivery",
+      "sub1items": "Documentation & schematics, CE marking",
+      "sub1hoverDetail": "Complete delivery including electrical schematics, component lists, and CE documentation according to applicable Machinery and Low Voltage Directives."
+    },
+    "risk": {
+      "title": "Risk Assessment",
+      "description": "Safety assessments according to the Machinery Directive with the right tools.",
+      "detailText": "Systematic and thorough safety assessments ensuring your machines and facilities meet all requirements according to the Machinery Directive. We use industry-leading tools such as CEDOC, SISTEMA and Softema to deliver reliable analyses.",
+      "workflowTitle": "Our approach",
+      "workflowText": "We identify all relevant hazards, assess risk levels according to harmonized standards, develop risk-reducing measures, and deliver complete documentation meeting regulatory requirements.",
+      "helpTitle": "We help you with",
+      "helpItems": "Risk analysis, Machinery Directive, SISTEMA analysis, Safety functions, CE documentation",
+      "sub0heading": "Tools",
+      "sub0items": "CEDOC, SISTEMA, Softema",
+      "sub0hoverDetail": "We use certified tools for risk analysis and verification of safety functions — ensuring your machines meet all regulatory requirements.",
+      "sub1heading": "Scope",
+      "sub1items": "Machinery Directive, Risk analysis & documentation",
+      "sub1hoverDetail": "Systematic risk assessments according to the Machinery Directive, with complete documentation ready for authorities."
+    },
+    "commissioning": {
+      "title": "Commissioning",
+      "description": "We're with you on-site until everything works as it should.",
+      "detailText": "Professional commissioning that ensures your systems work flawlessly from day one. We conduct structured function tests, run FAT and SAT according to plan, and stay until the system performs as expected.",
+      "workflowTitle": "Our approach",
+      "workflowText": "We plan the commissioning carefully together with you, conduct step-by-step function tests, verify all safety functions, fine-tune parameters and train your operators.",
+      "helpTitle": "We help you with",
+      "helpItems": "Function tests, FAT / SAT, Parameterization, Operator training, Troubleshooting, Optimization",
+      "sub0heading": "Process",
+      "sub0items": "Function tests, FAT / SAT",
+      "sub0hoverDetail": "Structured testing in factory (FAT) and on-site (SAT) ensures every function works correctly before the system goes live.",
+      "sub1heading": "Delivery",
+      "sub1items": "On-site commissioning, Optimization & fine-tuning",
+      "sub1hoverDetail": "We stay on-site until everything works. Parameter tuning, troubleshooting, and optimization — we don't leave until you're satisfied."
+    },
+    "simulation": {
+      "title": "Simulation",
+      "description": "Test before you build — minimize risks and optimize processes.",
+      "detailText": "Minimize risks and save time by testing and validating your systems in a virtual environment before physical implementation. With digital twins and flow simulation we can identify problems and optimize processes early in the project.",
+      "workflowTitle": "Our approach",
+      "workflowText": "We create a digital model of your system, run simulations to identify bottlenecks and risks, optimize the design iteratively, and validate the solution before physical implementation.",
+      "helpTitle": "We help you with",
+      "helpItems": "Virtual commissioning, Flow simulation, Digital twin, Process optimization, Capacity analysis",
+      "sub0heading": "Services",
+      "sub0items": "Virtual commissioning, Flow simulation, Digital twin",
+      "sub0hoverDetail": "Test and validate your systems digitally before physical implementation. Identify bottlenecks, optimize flows, and reduce the risk of costly changes."
+    },
+    "it": {
+      "title": "IT Solutions",
+      "description": "Industrial networks, cybersecurity and system integration for a connected production.",
+      "detailText": "Robust industrial IT solutions that connect OT and IT in a secure and efficient way. We design networks, implement cybersecurity solutions and integrate systems so you get full visibility into your production.",
+      "workflowTitle": "Our approach",
+      "workflowText": "We map your existing infrastructure, identify security risks and bottlenecks, design a future-proof solution, and implement with minimal impact on your operations.",
+      "helpTitle": "We help you with",
+      "helpItems": "Network design, OT/IT security, System integration, Data management, Remote access",
+      "sub0heading": "Services",
+      "sub0items": "Industrial networks, Cybersecurity (OT/IT), System integration",
+      "sub0hoverDetail": "We design secure industrial networks, implement OT cybersecurity, and connect your systems for full production visibility."
+    },
+    "elSolutions": {
+      "title": "Electrical Solutions",
+      "description": "Complete electrical systems for industry — from sketch to reality.",
+      "detailText": "Complete electrical solutions for industry — from engineering and dimensioning to installation and commissioning. We deliver everything from power supply and low-voltage systems to custom automation cabinets.",
+      "workflowTitle": "Our approach",
+      "workflowText": "We engineer based on your specific needs, select quality-assured components, perform professional installation, and finally test and document the entire delivery.",
+      "helpTitle": "We help you with",
+      "helpItems": "Power & low voltage, Engineering, Installation, Automation cabinets, Cable routing, Electrical service, Energy efficiency",
+      "sub0heading": "Services",
+      "sub0items": "Power & low voltage, Engineering & installation, Automation cabinets, Energy efficiency",
+      "sub0hoverDetail": "From power supply and cable routing to custom automation cabinets — we deliver complete electrical systems sized to your needs."
+    }
+  },
+  "Stats": {
+    "experience": "Years of experience",
+    "projects": "Projects delivered",
+    "customers": "Satisfied customers",
+    "support": "Support when needed"
+  },
+  "About": {
+    "label": "About Conro",
+    "heading1": "Technical excellence",
+    "heading2": "in every",
+    "heading3": "delivery",
+    "paragraph1": "Conro was founded with a clear ambition: to deliver automation solutions that truly make a difference. We combine deep technical expertise with a systematic approach.",
+    "paragraph2": "Our strength lies in understanding the full picture — from drawing to finished facility. This means fewer misunderstandings, faster deliveries, and systems that actually work in the real world.",
+    "feature1title": "Certified engineers",
+    "feature1desc": "Expertise you can trust",
+    "feature2title": "Agile methodology",
+    "feature2desc": "Flexible and adaptable",
+    "feature3title": "Full-service provider",
+    "feature3desc": "Everything under one roof",
+    "feature4title": "Long-term partnership",
+    "feature4desc": "We stay after delivery",
+    "boxLabel": "Automation & Industry"
+  },
+  "Process": {
+    "label": "Our process",
+    "heading1": "Three steps to a",
+    "heading2": "working facility",
+    "step1number": "01",
+    "step1title": "Analysis & Design",
+    "step1description": "We map your needs and develop a well-thought-out solution tailored to your specific conditions.",
+    "step2number": "02",
+    "step2title": "Development & Testing",
+    "step2description": "Electrical design, programming and simulation — everything is thoroughly verified before delivery.",
+    "step3number": "03",
+    "step3title": "Operation & Support",
+    "step3description": "Professional on-site commissioning, followed by ongoing support and continuous optimization."
+  },
+  "CTA": {
+    "heading": "Ready to take the next step?",
+    "description": "Let's discuss how we can help you streamline production and future-proof your systems.",
+    "button": "Contact us today"
+  },
+  "Contact": {
+    "label": "Contact",
+    "heading1": "Have a project?",
+    "heading2": "We have the solution.",
+    "description": "Tell us what you need. We'll get back to you with a concrete plan and a clear budget.",
+    "emailLabel": "Email",
+    "phoneLabel": "Phone",
+    "locationLabel": "Location",
+    "locationValue": "Sweden"
+  },
+  "ContactForm": {
+    "title": "Send an inquiry",
+    "nameLabel": "Name",
+    "namePlaceholder": "Your name",
+    "emailLabel": "Email",
+    "emailPlaceholder": "your@email.com",
+    "messageLabel": "Message",
+    "messagePlaceholder": "Describe your project...",
+    "submit": "Send inquiry",
+    "sending": "Sending...",
+    "successHeading": "Thank you for your inquiry!",
+    "successText": "We have received your message and will get back to you within 24 hours.",
+    "emailSubject": "New inquiry from conro.se"
+  },
+  "Footer": {
+    "description": "Complete solutions in automation and industry. From concept to finished facility.",
+    "servicesHeading": "Services",
+    "companyHeading": "Company",
+    "contactHeading": "Contact",
+    "aboutLink": "About us",
+    "servicesLink": "Services",
+    "processLink": "Our process",
+    "contactLink": "Contact",
+    "copyright": "All rights reserved.",
+    "privacy": "Privacy policy",
+    "cookies": "Cookies"
+  },
+  "Common": {
+    "themeAriaLabel": "Toggle theme",
+    "scrollTopAriaLabel": "Back to top",
+    "light": "Light",
+    "dark": "Dark"
+  }
+}

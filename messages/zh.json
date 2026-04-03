@@ -1,0 +1,222 @@
+{
+  "Metadata": {
+    "title": "Conro | 自动化与工业解决方案",
+    "description": "Conro提供自动化产品和工业解决方案，涵盖电气设计、编程、调试、仿真、IT和电气解决方案。",
+    "ogDescription": "自动化与工业的全方位解决方案——从概念到运行设施。"
+  },
+  "Header": {
+    "services": "服务",
+    "about": "关于我们",
+    "whyConro": "为何选择Conro",
+    "contact": "联系我们",
+    "cta": "联系我们",
+    "menuAriaLabel": "菜单"
+  },
+  "Hero": {
+    "badge": "自动化与工业解决方案",
+    "headline1": "我们构建",
+    "headline2": "未来的",
+    "headline3": "工业",
+    "description": "电气设计。编程。调试。仿真。",
+    "descriptionHighlight": " 我们带您从创意到运行设施",
+    "descriptionEnd": " ——并确保稳定高效的运营。",
+    "ctaPrimary": "探索我们的服务",
+    "ctaSecondary": "与我们交流"
+  },
+  "TrustLogos": {
+    "label": "我们使用的工具和平台"
+  },
+  "Services": {
+    "label": "我们的服务",
+    "heading1": "七大专业领域。",
+    "heading2": "一个供应商。",
+    "description": "我们将专业能力集中在一个屋檐下，让您无需协调五家不同的咨询公司。",
+    "programming": {
+      "title": "编程",
+      "description": "我们开发控制系统和应用程序，让您的生产更加智能。",
+      "detailText": "我们开发定制的控制系统和软件解决方案，让您完全掌控生产流程。从西门子TIA Portal和Allen Bradley的PLC编程到先进的HMI/SCADA解决方案和AI驱动的自动化——我们具备将您的系统提升到新水平的专业能力。",
+      "workflowTitle": "我们的方法",
+      "workflowText": "我们从全面分析您现有的系统和流程开始。然后根据您的具体需求设计解决方案，在交付前严格开发和测试，最后在现场实施并提供全面支持。",
+      "helpTitle": "我们帮助您",
+      "helpItems": "PLC编程, HMI/SCADA设计, 应用开发, C#, C++, JavaScript, AI优化, 系统集成, 软件升级",
+      "sub0heading": "PLC",
+      "sub0items": "TIA Portal, Allen Bradley, Codesys",
+      "sub0hoverDetail": "我们开发强大的PLC程序，从简单的顺序控制到复杂的过程控制系统。无论您使用西门子、罗克韦尔还是基于Codesys的平台，我们都有交付经验。",
+      "sub1heading": "HMI / SCADA",
+      "sub1items": "WinCC, FactoryTalk, Ignition",
+      "sub1hoverDetail": "我们设计操作界面，为您提供全面的概览和控制。从本地HMI面板到带有报警、趋势和报表的可扩展SCADA系统。",
+      "sub2heading": "应用程序",
+      "sub2items": "C#, C++, JavaScript 等",
+      "sub2hoverDetail": "定制应用程序，用于数据采集、系统集成和过程监控。我们构建从Windows服务到Web界面的一切。",
+      "sub3heading": "AI与智能自动化",
+      "sub3items": "AI驱动优化, 预测性维护, 机器学习",
+      "sub3hoverDetail": "我们帮助您利用AI和机器学习来优化流程、预测维护需求并实时做出数据驱动的决策。"
+    },
+    "electrical": {
+      "title": "电气设计",
+      "description": "完整的电气设计——从原理图到完成的文档。",
+      "detailText": "从需求规范到最终交付的完整电气设计。我们在EPLAN和ElproCAD中制作专业的电气原理图、布局图和配套文档——始终符合现行标准并带有CE标志。",
+      "workflowTitle": "我们的方法",
+      "workflowText": "我们从您的需求出发，制作完整的原理图和布局，审查并确保所有文档的质量，交付时即可安装。",
+      "helpTitle": "我们帮助您",
+      "helpItems": "原理图与布局, 元件选型, CE文档, 升级, 审查",
+      "sub0heading": "工具",
+      "sub0items": "EPLAN, ElproCAD",
+      "sub0hoverDetail": "我们使用行业领先的工具，制作清晰、标准化的电气原理图和布局，便于安装和维护。",
+      "sub1heading": "交付",
+      "sub1items": "文档与原理图, CE认证",
+      "sub1hoverDetail": "完整交付，包括电气原理图、元件清单以及符合现行机械指令和低压指令的CE文档。"
+    },
+    "risk": {
+      "title": "风险评估",
+      "description": "根据机械指令进行安全评估，使用正确的工具。",
+      "detailText": "系统而全面的安全评估，确保您的机器和设施满足机械指令的所有要求。我们使用CEDOC、SISTEMA和Softema等行业领先工具提供可靠的分析。",
+      "workflowTitle": "我们的方法",
+      "workflowText": "我们识别所有相关危险，按照协调标准评估风险等级，制定风险降低措施，并交付符合监管要求的完整文档。",
+      "helpTitle": "我们帮助您",
+      "helpItems": "风险分析, 机械指令, SISTEMA分析, 安全功能, CE文档",
+      "sub0heading": "工具",
+      "sub0items": "CEDOC, SISTEMA, Softema",
+      "sub0hoverDetail": "我们使用经过认证的工具进行风险分析和安全功能验证——确保您的机器满足所有法规要求。",
+      "sub1heading": "范围",
+      "sub1items": "机械指令, 风险分析与文档",
+      "sub1hoverDetail": "根据机械指令进行系统的风险评估，配备完整的文档，随时可供当局审查。"
+    },
+    "commissioning": {
+      "title": "调试",
+      "description": "我们与您一起在现场，直到一切正常运行。",
+      "detailText": "专业的调试确保您的系统从第一天起完美运行。我们进行结构化的功能测试，按计划执行FAT和SAT，并一直待到系统达到预期性能。",
+      "workflowTitle": "我们的方法",
+      "workflowText": "我们与您一起仔细规划调试，逐步进行功能测试，验证所有安全功能，调整参数并培训您的操作人员。",
+      "helpTitle": "我们帮助您",
+      "helpItems": "功能测试, FAT / SAT, 参数设置, 操作员培训, 故障排除, 优化",
+      "sub0heading": "流程",
+      "sub0items": "功能测试, FAT / SAT",
+      "sub0hoverDetail": "工厂结构化测试（FAT）和现场测试（SAT）确保每个功能在系统投入运行前正常工作。",
+      "sub1heading": "交付",
+      "sub1items": "现场调试, 优化与微调",
+      "sub1hoverDetail": "我们留在现场直到一切正常。参数调整、故障排除和优化——直到您满意我们才离开。"
+    },
+    "simulation": {
+      "title": "仿真",
+      "description": "在建造之前进行测试——降低风险并优化流程。",
+      "detailText": "通过在虚拟环境中测试和验证系统来降低风险并节省时间。借助数字孪生和流程仿真，我们能在项目早期识别问题并优化流程。",
+      "workflowTitle": "我们的方法",
+      "workflowText": "我们创建系统的数字模型，运行仿真以识别瓶颈和风险，迭代优化设计，并在物理实施之前验证解决方案。",
+      "helpTitle": "我们帮助您",
+      "helpItems": "虚拟调试, 流程仿真, 数字孪生, 流程优化, 产能分析",
+      "sub0heading": "服务",
+      "sub0items": "虚拟调试, 流程仿真, 数字孪生",
+      "sub0hoverDetail": "在物理实施之前数字化测试和验证您的系统。识别瓶颈、优化流程并降低昂贵变更的风险。"
+    },
+    "it": {
+      "title": "IT解决方案",
+      "description": "工业网络、网络安全和系统集成，实现互联生产。",
+      "detailText": "强大的工业IT解决方案，安全高效地连接OT和IT。我们设计网络，实施网络安全解决方案，集成系统，让您全面了解生产状况。",
+      "workflowTitle": "我们的方法",
+      "workflowText": "我们梳理您现有的基础设施，识别安全风险和瓶颈，设计面向未来的解决方案，并以最小的运营影响实施。",
+      "helpTitle": "我们帮助您",
+      "helpItems": "网络设计, OT/IT安全, 系统集成, 数据管理, 远程访问",
+      "sub0heading": "服务",
+      "sub0items": "工业网络, 网络安全 (OT/IT), 系统集成",
+      "sub0hoverDetail": "我们设计安全的工业网络，实施OT网络安全，并连接您的系统以实现全面的生产可视性。"
+    },
+    "elSolutions": {
+      "title": "电气解决方案",
+      "description": "为工业提供完整的电气系统——从草图到现实。",
+      "detailText": "为工业提供完整的电气解决方案——从工程设计和选型到安装和调试。我们交付从供电和低压系统到定制自动化控制柜的一切。",
+      "workflowTitle": "我们的方法",
+      "workflowText": "我们根据您的具体需求进行设计，选择质量有保证的组件，进行专业安装，最后测试和记录整个交付。",
+      "helpTitle": "我们帮助您",
+      "helpItems": "电力与低压, 工程设计, 安装, 自动化控制柜, 电缆敷设, 电气服务, 能源效率",
+      "sub0heading": "服务",
+      "sub0items": "电力与低压, 工程与安装, 自动化控制柜, 能源效率",
+      "sub0hoverDetail": "从供电和电缆敷设到定制自动化控制柜——我们交付按您需求定制的完整电气系统。"
+    }
+  },
+  "Stats": {
+    "experience": "年经验",
+    "projects": "已交付项目",
+    "customers": "满意客户",
+    "support": "按需支持"
+  },
+  "About": {
+    "label": "关于Conro",
+    "heading1": "卓越技术",
+    "heading2": "贯穿每一次",
+    "heading3": "交付",
+    "paragraph1": "Conro成立的明确目标是：提供真正产生影响的自动化解决方案。我们将深厚的技术专长与系统化的工作方法相结合。",
+    "paragraph2": "我们的优势在于理解全局——从图纸到成品设施。这意味着更少的误解、更快的交付，以及在现实中真正运行的系统。",
+    "feature1title": "认证工程师",
+    "feature1desc": "值得信赖的专业能力",
+    "feature2title": "敏捷方法论",
+    "feature2desc": "灵活且适应性强",
+    "feature3title": "全方位服务商",
+    "feature3desc": "一站式解决方案",
+    "feature4title": "长期合作伙伴",
+    "feature4desc": "交付后我们仍在",
+    "boxLabel": "自动化与工业"
+  },
+  "Process": {
+    "label": "我们的流程",
+    "heading1": "三步实现",
+    "heading2": "运行中的设施",
+    "step1number": "01",
+    "step1title": "分析与设计",
+    "step1description": "我们梳理您的需求，制定一个根据您具体条件量身定制的周密解决方案。",
+    "step2number": "02",
+    "step2title": "开发与测试",
+    "step2description": "电气设计、编程和仿真——交付前一切都经过严格验证。",
+    "step3number": "03",
+    "step3title": "运营与支持",
+    "step3description": "专业的现场调试，随后提供持续的支持和不断的优化。"
+  },
+  "CTA": {
+    "heading": "准备好迈出下一步了吗？",
+    "description": "让我们讨论如何帮助您精简生产并为您的系统提供面向未来的保障。",
+    "button": "立即联系我们"
+  },
+  "Contact": {
+    "label": "联系方式",
+    "heading1": "有项目需求？",
+    "heading2": "我们有解决方案。",
+    "description": "告诉我们您需要什么。我们将回复您一份具体的计划和明确的预算。",
+    "emailLabel": "电子邮件",
+    "phoneLabel": "电话",
+    "locationLabel": "地点",
+    "locationValue": "瑞典"
+  },
+  "ContactForm": {
+    "title": "发送询价",
+    "nameLabel": "姓名",
+    "namePlaceholder": "您的姓名",
+    "emailLabel": "电子邮件",
+    "emailPlaceholder": "your@email.com",
+    "messageLabel": "留言",
+    "messagePlaceholder": "描述您的项目...",
+    "submit": "发送询价",
+    "sending": "发送中...",
+    "successHeading": "感谢您的询价！",
+    "successText": "我们已收到您的消息，将在24小时内回复。",
+    "emailSubject": "来自conro.se的新询价"
+  },
+  "Footer": {
+    "description": "自动化与工业的全方位解决方案。从概念到成品设施。",
+    "servicesHeading": "服务",
+    "companyHeading": "公司",
+    "contactHeading": "联系方式",
+    "aboutLink": "关于我们",
+    "servicesLink": "服务",
+    "processLink": "我们的流程",
+    "contactLink": "联系方式",
+    "copyright": "版权所有。",
+    "privacy": "隐私政策",
+    "cookies": "Cookies"
+  },
+  "Common": {
+    "themeAriaLabel": "切换主题",
+    "scrollTopAriaLabel": "返回顶部",
+    "light": "Light",
+    "dark": "Dark"
+  }
+}

@@ -1,0 +1,222 @@
+{
+  "Metadata": {
+    "title": "Conro | Automation & Industrilösningar",
+    "description": "Conro levererar automationsprodukter och industrilösningar inom elkonstruktion, programmering, idrifttagning, simulering, IT- och ellösningar.",
+    "ogDescription": "Helhetslösningar inom automation och industri — från idé till fungerande anläggning."
+  },
+  "Header": {
+    "services": "Tjänster",
+    "about": "Om oss",
+    "whyConro": "Varför Conro",
+    "contact": "Kontakt",
+    "cta": "Kontakta oss",
+    "menuAriaLabel": "Meny"
+  },
+  "Hero": {
+    "badge": "Automation & Industrilösningar",
+    "headline1": "Vi bygger",
+    "headline2": "framtidens",
+    "headline3": "industri",
+    "description": "Elkonstruktion. Programmering. Idrifttagning. Simulering.",
+    "descriptionHighlight": " Vi tar er från idé till fungerande anläggning",
+    "descriptionEnd": " — och säkerställer en stabil och effektiv drift.",
+    "ctaPrimary": "Utforska våra tjänster",
+    "ctaSecondary": "Prata med oss"
+  },
+  "TrustLogos": {
+    "label": "Verktyg & plattformar vi arbetar med"
+  },
+  "Services": {
+    "label": "Vårt erbjudande",
+    "heading1": "Sju discipliner.",
+    "heading2": "En leverantör.",
+    "description": "Vi samlar kompetensen under ett tak så att ni slipper koordinera fem olika konsultbolag.",
+    "programming": {
+      "title": "Programmering",
+      "description": "Vi utvecklar styrsystem och applikationer som gör er produktion smartare.",
+      "detailText": "Vi utvecklar skräddarsydda styrsystem och programvarulösningar som ger er full kontroll över produktionsprocesserna. Från PLC-programmering i Siemens TIA Portal och Allen Bradley till avancerade HMI/SCADA-lösningar och AI-driven automation — vi har kompetensen att ta ert system till nästa nivå.",
+      "workflowTitle": "Vårt arbetssätt",
+      "workflowText": "Vi börjar med en grundlig analys av era befintliga system och processer. Sedan designar vi en lösning anpassad efter era specifika krav, utvecklar och testar noggrant innan leverans, och slutligen implementerar vi på plats med full support.",
+      "helpTitle": "Vi hjälper er med",
+      "helpItems": "PLC-programmering, HMI/SCADA-design, Applikationsutveckling, C#, C++, JavaScript, AI-optimering, Systemintegration, Mjukvaruuppgradering",
+      "sub0heading": "PLC",
+      "sub0items": "TIA Portal, Allen Bradley, Codesys",
+      "sub0hoverDetail": "Vi utvecklar robusta PLC-program för allt från enklare sekvenser till komplexa processtyrsystem. Oavsett om ni kör Siemens, Rockwell eller Codesys-baserade plattformar har vi erfarenheten att leverera.",
+      "sub1heading": "HMI / SCADA",
+      "sub1items": "WinCC, FactoryTalk, Ignition",
+      "sub1hoverDetail": "Vi designar operatörsgränssnitt som ger er full överblick och kontroll. Från lokala HMI-paneler till skalbara SCADA-system med larm, trender och rapportering.",
+      "sub2heading": "Applikation",
+      "sub2items": "C#, C++, JavaScript m.m.",
+      "sub2hoverDetail": "Skräddarsydda applikationer för datainsamling, systemintegration och processövervakning. Vi bygger allt från Windows-tjänster till webbgränssnitt.",
+      "sub3heading": "AI & Intelligent Automation",
+      "sub3items": "AI-driven optimering, Prediktivt underhåll, Maskininlärning",
+      "sub3hoverDetail": "Vi hjälper er att utnyttja AI och maskininlärning för att optimera processer, förutse underhållsbehov och fatta datadrivna beslut i realtid."
+    },
+    "electrical": {
+      "title": "Elkonstruktion",
+      "description": "Komplett elkonstruktion — från scheman till färdig dokumentation.",
+      "detailText": "Komplett elkonstruktion från kravspecifikation till färdig leverans. Vi tar fram professionella elscheman, layoutritningar och tillhörande dokumentation i EPLAN och ElproCAD — alltid enligt gällande standarder och med CE-märkning.",
+      "workflowTitle": "Vårt arbetssätt",
+      "workflowText": "Vi utgår från era krav och förutsättningar, tar fram kompletta elscheman och layouter, granskar och kvalitetssäkrar all dokumentation, och levererar redo för installation.",
+      "helpTitle": "Vi hjälper er med",
+      "helpItems": "Elscheman & layouter, Komponentval, CE-dokumentation, Uppgraderingar, Granskningar",
+      "sub0heading": "Verktyg",
+      "sub0items": "EPLAN, ElproCAD",
+      "sub0hoverDetail": "Vi arbetar i branschens ledande verktyg för att ta fram tydliga, standardiserade elscheman och layouter som underlättar installation och underhåll.",
+      "sub1heading": "Leverans",
+      "sub1items": "Dokumentation & scheman, CE-märkning",
+      "sub1hoverDetail": "Komplett leverans med allt från elscheman och komponentlistor till CE-dokumentation enligt gällande maskindirektiv och lågspänningsdirektiv."
+    },
+    "risk": {
+      "title": "Riskbedömning",
+      "description": "Säkerhetsbedömningar enligt maskindirektivet med rätt verktyg.",
+      "detailText": "Systematiska och grundliga säkerhetsbedömningar som säkerställer att era maskiner och anläggningar uppfyller alla krav enligt maskindirektivet. Vi använder branschledande verktyg som CEDOC, SISTEMA och Softema för att leverera pålitliga analyser.",
+      "workflowTitle": "Vårt arbetssätt",
+      "workflowText": "Vi identifierar alla relevanta faror, bedömer risknivåer enligt harmoniserade standarder, tar fram riskreducerande åtgärder, och levererar komplett dokumentation som uppfyller myndighetskraven.",
+      "helpTitle": "Vi hjälper er med",
+      "helpItems": "Riskanalys, Maskindirektivet, SISTEMA-analys, Säkerhetsfunktioner, CE-dokumentation",
+      "sub0heading": "Verktyg",
+      "sub0items": "CEDOC, SISTEMA, Softema",
+      "sub0hoverDetail": "Vi använder certifierade verktyg för riskanalys och verifiering av säkerhetsfunktioner — allt för att säkerställa att era maskiner uppfyller alla krav.",
+      "sub1heading": "Scope",
+      "sub1items": "Maskindirektivet, Riskanalys & dokumentation",
+      "sub1hoverDetail": "Systematiska riskbedömningar enligt maskindirektivet, med fullständig dokumentation redo för myndigheter."
+    },
+    "commissioning": {
+      "title": "Idrifttagning",
+      "description": "Vi är med er på plats tills allting fungerar som det ska.",
+      "detailText": "Professionell idrifttagning som säkerställer att era system fungerar felfritt från dag ett. Vi genomför strukturerade funktionstester, kör FAT och SAT enligt plan, och stannar tills systemet presterar som förväntat.",
+      "workflowTitle": "Vårt arbetssätt",
+      "workflowText": "Vi planerar idrifttagningen noggrant tillsammans med er, genomför stegvisa funktionstester, verifierar alla säkerhetsfunktioner, finjusterar parametrar och utbildar era operatörer.",
+      "helpTitle": "Vi hjälper er med",
+      "helpItems": "Funktionstester, FAT / SAT, Parametrering, Operatörsutbildning, Felsökning, Optimering",
+      "sub0heading": "Process",
+      "sub0items": "Funktionstester, FAT / SAT",
+      "sub0hoverDetail": "Strukturerad testning i fabrik (FAT) och på plats (SAT) säkerställer att varje funktion fungerar korrekt innan systemet tas i drift.",
+      "sub1heading": "Leverans",
+      "sub1items": "On-site idrifttagning, Optimering & finjustering",
+      "sub1hoverDetail": "Vi är på plats tills allt fungerar. Parameterjustering, felsökning och optimering — vi lämnar inte förrän ni är nöjda."
+    },
+    "simulation": {
+      "title": "Simulering",
+      "description": "Testa innan ni bygger — minimera risker och optimera processer.",
+      "detailText": "Minimera risker och spara tid genom att testa och validera era system i en virtuell miljö innan fysisk implementation. Med digitala tvillingar och flödessimulering kan vi identifiera problem och optimera processer tidigt i projektet.",
+      "workflowTitle": "Vårt arbetssätt",
+      "workflowText": "Vi skapar en digital modell av ert system, kör simuleringar för att identifiera flaskhalsar och risker, optimerar designen iterativt, och validerar lösningen innan den implementeras fysiskt.",
+      "helpTitle": "Vi hjälper er med",
+      "helpItems": "Virtuell idrifttagning, Flödessimulering, Digital tvilling, Processoptimering, Kapacitetsanalys",
+      "sub0heading": "Tjänster",
+      "sub0items": "Virtuell idrifttagning, Flödessimulering, Digital tvilling",
+      "sub0hoverDetail": "Testa och validera era system digitalt innan fysisk implementation. Identifiera flaskhalsar, optimera flöden och minska risken för kostsamma ändringar."
+    },
+    "it": {
+      "title": "IT-lösningar",
+      "description": "Industriella nätverk, cybersäkerhet och systemintegration för en sammankopplad produktion.",
+      "detailText": "Robusta industriella IT-lösningar som kopplar samman OT och IT på ett säkert och effektivt sätt. Vi designar nätverk, implementerar cybersäkerhetslösningar och integrerar system så att ni får full insyn i er produktion.",
+      "workflowTitle": "Vårt arbetssätt",
+      "workflowText": "Vi kartlägger er befintliga infrastruktur, identifierar säkerhetsrisker och flaskhalsar, designar en framtidssäker lösning, och implementerar med minimal påverkan på er drift.",
+      "helpTitle": "Vi hjälper er med",
+      "helpItems": "Nätverksdesign, OT/IT-säkerhet, Systemintegration, Datahantering, Fjärråtkomst",
+      "sub0heading": "Tjänster",
+      "sub0items": "Industriella nätverk, Cybersäkerhet (OT/IT), Systemintegration",
+      "sub0hoverDetail": "Vi designar säkra industriella nätverk, implementerar OT-cybersäkerhet och kopplar samman era system för full insyn i produktionen."
+    },
+    "elSolutions": {
+      "title": "Ellösningar",
+      "description": "Kompletta elsystem för industrin — från skiss till verklighet.",
+      "detailText": "Kompletta ellösningar för industrin — från projektering och dimensionering till installation och driftsättning. Vi levererar allt från kraftförsörjning och lågspänningssystem till skräddarsydda automationsskåp.",
+      "workflowTitle": "Vårt arbetssätt",
+      "workflowText": "Vi projekterar utifrån era specifika behov, väljer kvalitetssäkrade komponenter, utför professionell installation, och slutligen testar och dokumenterar hela leveransen.",
+      "helpTitle": "Vi hjälper er med",
+      "helpItems": "Kraft & lågspänning, Projektering, Installation, Automationsskåp, Kabelförläggning, Elservice, Energieffektivisering",
+      "sub0heading": "Tjänster",
+      "sub0items": "Kraft- & lågspänning, Projektering & installation, Automationsskåp, Energieffektivisering",
+      "sub0hoverDetail": "Från kraftförsörjning och kabelförläggning till skräddarsydda automationsskåp — vi levererar kompletta elsystem dimensionerade efter era behov."
+    }
+  },
+  "Stats": {
+    "experience": "Års erfarenhet",
+    "projects": "Projekt levererade",
+    "customers": "Nöjda kunder",
+    "support": "Support vid behov"
+  },
+  "About": {
+    "label": "Om Conro",
+    "heading1": "Teknisk excellens",
+    "heading2": "i varje",
+    "heading3": "leverans",
+    "paragraph1": "Conro grundades med en tydlig ambition: att leverera automationslösningar som verkligen gör skillnad. Vi kombinerar djup teknisk kompetens med ett systematiskt arbetssätt.",
+    "paragraph2": "Vår styrka ligger i att vi förstår helheten — från ritning till färdig anläggning. Det betyder färre missförstånd, snabbare leveranser och system som faktiskt fungerar i verkligheten.",
+    "feature1title": "Certifierade ingenjörer",
+    "feature1desc": "Expertis ni kan lita på",
+    "feature2title": "Agilt arbetssätt",
+    "feature2desc": "Flexibla och anpassningsbara",
+    "feature3title": "Helhetsleverantör",
+    "feature3desc": "Allt under ett tak",
+    "feature4title": "Långsiktigt partnerskap",
+    "feature4desc": "Vi finns kvar efter leverans",
+    "boxLabel": "Automation & Industri"
+  },
+  "Process": {
+    "label": "Vår process",
+    "heading1": "Tre steg till en",
+    "heading2": "fungerande anläggning",
+    "step1number": "01",
+    "step1title": "Analys & Design",
+    "step1description": "Vi kartlägger era behov och tar fram en genomtänkt lösning anpassad efter era specifika förutsättningar.",
+    "step2number": "02",
+    "step2title": "Utveckling & Test",
+    "step2description": "Elkonstruktion, programmering och simulering — allt verifieras noggrant innan leverans.",
+    "step3number": "03",
+    "step3title": "Drift & Support",
+    "step3description": "Professionell idrifttagning på plats, följt av löpande support och kontinuerlig optimering."
+  },
+  "CTA": {
+    "heading": "Redo att ta nästa steg?",
+    "description": "Låt oss diskutera hur vi kan hjälpa er att effektivisera produktionen och framtidssäkra era system.",
+    "button": "Kontakta oss idag"
+  },
+  "Contact": {
+    "label": "Kontakt",
+    "heading1": "Har ni ett projekt?",
+    "heading2": "Vi har lösningen.",
+    "description": "Berätta vad ni behöver. Vi återkommer med en konkret plan och en tydlig budget.",
+    "emailLabel": "E-post",
+    "phoneLabel": "Telefon",
+    "locationLabel": "Plats",
+    "locationValue": "Sverige"
+  },
+  "ContactForm": {
+    "title": "Skicka en förfrågan",
+    "nameLabel": "Namn",
+    "namePlaceholder": "Ditt namn",
+    "emailLabel": "E-post",
+    "emailPlaceholder": "din@epost.se",
+    "messageLabel": "Meddelande",
+    "messagePlaceholder": "Beskriv ert projekt...",
+    "submit": "Skicka förfrågan",
+    "sending": "Skickar...",
+    "successHeading": "Tack för er förfrågan!",
+    "successText": "Vi har tagit emot ert meddelande och återkommer inom 24 timmar.",
+    "emailSubject": "Ny förfrågan från conro.se"
+  },
+  "Footer": {
+    "description": "Helhetslösningar inom automation och industri. Från koncept till färdig anläggning.",
+    "servicesHeading": "Tjänster",
+    "companyHeading": "Företaget",
+    "contactHeading": "Kontakt",
+    "aboutLink": "Om oss",
+    "servicesLink": "Tjänster",
+    "processLink": "Vår process",
+    "contactLink": "Kontakt",
+    "copyright": "Alla rättigheter förbehållna.",
+    "privacy": "Integritetspolicy",
+    "cookies": "Cookies"
+  },
+  "Common": {
+    "themeAriaLabel": "Växla tema",
+    "scrollTopAriaLabel": "Tillbaka till toppen",
+    "light": "Light",
+    "dark": "Dark"
+  }
+}

@@ -1,32 +1,49 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import Link from "next/link";
 import Image from "next/image";
+import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
 import ThemeToggle from "./ThemeToggle";
+import LanguageSwitcher from "./LanguageSwitcher";
 
-const navItems = [
-  { label: "Tjänster", href: "#tjanster" },
-  { label: "Om oss", href: "#om-oss" },
-  { label: "Varför Conro", href: "#varfor-conro" },
-  { label: "Kontakt", href: "#kontakt" },
-];
+const navKeys = [
+  { key: "services", href: "#services" },
+  { key: "about", href: "#about" },
+  { key: "whyConro", href: "#why-conro" },
+  { key: "contact", href: "#contact" },
+] as const;
 
 export default function Header() {
+  const t = useTranslations("Header");
   const [menuOpen, setMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const [activeSection, setActiveSection] = useState("");
 
   useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 20);
-    window.addEventListener("scroll", onScroll);
+    const sections = navKeys.map((item) => item.href.replace("#", ""));
+    const onScroll = () => {
+      setScrolled(window.scrollY > 20);
+      let current = "";
+      for (const id of sections) {
+        const el = document.getElementById(id);
+        if (el) {
+          const rect = el.getBoundingClientRect();
+          if (rect.top <= 150) current = id;
+        }
+      }
+      setActiveSection(current);
+    };
+
+    window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
   return (
     <header
-      className={`sticky top-0 z-50 transition-all duration-300 ${
+      className={`sticky top-0 z-50 transition-all duration-500 ${
         scrolled
-          ? "bg-white/95 dark:bg-[#0a1628]/95 backdrop-blur shadow-sm"
+          ? "bg-white/95 dark:bg-[#0a1628]/95 backdrop-blur-xl shadow-lg shadow-black/5 dark:shadow-black/20"
           : "bg-transparent"
       }`}
     >
@@ -38,34 +55,42 @@ export default function Header() {
               alt="Conro"
               width={140}
               height={46}
-              className="h-9 w-auto"
+              className="h-9 w-auto transition-transform duration-300 group-hover:scale-105"
               priority
             />
           </Link>
 
           <nav className="hidden md:flex items-center gap-6">
-            {navItems.map((item) => (
-              <a
-                key={item.href}
-                href={item.href}
-                className="relative text-sm font-semibold text-gray-600 dark:text-gray-300 hover:text-primary transition-colors after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-primary after:transition-all hover:after:w-full"
-              >
-                {item.label}
-              </a>
-            ))}
+            {navKeys.map((item) => {
+              const isActive = activeSection === item.href.replace("#", "");
+              return (
+                <a
+                  key={item.key}
+                  href={item.href}
+                  className={`relative text-sm font-semibold transition-colors after:absolute after:bottom-0 after:left-0 after:h-0.5 after:bg-primary after:transition-all ${
+                    isActive
+                      ? "text-primary after:w-full"
+                      : "text-gray-600 dark:text-gray-300 hover:text-primary after:w-0 hover:after:w-full"
+                  }`}
+                >
+                  {t(item.key)}
+                </a>
+              );
+            })}
+            <LanguageSwitcher />
             <ThemeToggle />
             <a
-              href="#kontakt"
+              href="#contact"
               className="rounded-xl bg-gradient-to-r from-primary to-emerald-500 px-6 py-2.5 text-sm font-bold text-white hover:shadow-lg hover:shadow-primary/30 transition-all hover:-translate-y-0.5"
             >
-              Kontakta oss
+              {t("cta")}
             </a>
           </nav>
 
           <button
             onClick={() => setMenuOpen(!menuOpen)}
             className="md:hidden p-2 text-gray-600 hover:text-primary transition-colors"
-            aria-label="Meny"
+            aria-label={t("menuAriaLabel")}
           >
             <svg className="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               {menuOpen ? (
@@ -79,24 +104,35 @@ export default function Header() {
       </div>
 
       {menuOpen && (
-        <div className="md:hidden bg-white dark:bg-[#0a1628] border-t border-gray-100 dark:border-white/10 shadow-lg">
+        <div className="md:hidden bg-white dark:bg-[#0a1628] border-t border-gray-100 dark:border-white/10 shadow-lg animate-mobile-menu">
           <div className="px-4 py-6 space-y-4">
-            {navItems.map((item) => (
-              <a
-                key={item.href}
-                href={item.href}
-                onClick={() => setMenuOpen(false)}
-                className="block text-base font-semibold text-gray-700 dark:text-gray-300 hover:text-primary transition-colors"
-              >
-                {item.label}
-              </a>
-            ))}
+            {navKeys.map((item) => {
+              const isActive = activeSection === item.href.replace("#", "");
+              return (
+                <a
+                  key={item.key}
+                  href={item.href}
+                  onClick={() => setMenuOpen(false)}
+                  className={`block text-base font-semibold transition-colors ${
+                    isActive
+                      ? "text-primary"
+                      : "text-gray-700 dark:text-gray-300 hover:text-primary"
+                  }`}
+                >
+                  {t(item.key)}
+                </a>
+              );
+            })}
+            <div className="flex items-center gap-3 pt-2">
+              <LanguageSwitcher />
+              <ThemeToggle />
+            </div>
             <a
-              href="#kontakt"
+              href="#contact"
               onClick={() => setMenuOpen(false)}
               className="block mt-4 rounded-xl bg-gradient-to-r from-primary to-emerald-500 px-5 py-3 text-center text-sm font-bold text-white"
             >
-              Kontakta oss
+              {t("cta")}
             </a>
           </div>
         </div>

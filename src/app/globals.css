@@ -39,6 +39,8 @@ html {
   scroll-behavior: smooth;
 }
 
+/* ===================== ANIMATIONS ===================== */
+
 @keyframes float {
   0%, 100% { transform: translateY(0); }
   50% { transform: translateY(-20px); }
@@ -63,6 +65,57 @@ html {
   to { stroke-dashoffset: 0; }
 }
 
+@keyframes counter-pop {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+@keyframes glow-pulse {
+  0%, 100% { box-shadow: 0 0 20px rgba(74, 222, 128, 0.1); }
+  50% { box-shadow: 0 0 40px rgba(74, 222, 128, 0.25); }
+}
+
+@keyframes border-glow {
+  0%, 100% { border-color: rgba(74, 222, 128, 0.1); }
+  50% { border-color: rgba(74, 222, 128, 0.3); }
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+@keyframes line-grow {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes hero-text-reveal {
+  from { opacity: 0; transform: translateY(40px) scale(0.97); filter: blur(4px); }
+  to { opacity: 1; transform: translateY(0) scale(1); filter: blur(0); }
+}
+
+@keyframes badge-slide {
+  from { opacity: 0; transform: translateX(-20px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes cta-pulse {
+  0%, 100% { box-shadow: 0 10px 25px rgba(22, 163, 74, 0.25); }
+  50% { box-shadow: 0 10px 40px rgba(22, 163, 74, 0.45); }
+}
+
+@keyframes mobile-menu-slide {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
 .animate-float {
   animation: float 6s ease-in-out infinite;
 }
@@ -82,6 +135,48 @@ html {
 .animate-slide-up {
   animation: slide-up 0.8s ease-out forwards;
 }
+
+.animate-counter-done {
+  animation: counter-pop 0.4s ease-out;
+}
+
+.animate-shimmer {
+  background: linear-gradient(90deg, transparent 0%, rgba(255,255,255,0.08) 50%, transparent 100%);
+  background-size: 200% 100%;
+  animation: shimmer 2s ease-in-out infinite;
+}
+
+.animate-glow-pulse {
+  animation: glow-pulse 3s ease-in-out infinite;
+}
+
+.animate-border-glow {
+  animation: border-glow 3s ease-in-out infinite;
+}
+
+.animate-marquee {
+  animation: marquee 30s linear infinite;
+}
+
+.animate-hero-text {
+  animation: hero-text-reveal 1s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  opacity: 0;
+}
+
+.animate-badge {
+  animation: badge-slide 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  opacity: 0;
+}
+
+.animate-cta-pulse {
+  animation: cta-pulse 3s ease-in-out infinite;
+}
+
+.animate-mobile-menu {
+  animation: mobile-menu-slide 0.3s ease-out;
+}
+
+/* ===================== UTILITY CLASSES ===================== */
 
 .hero-grid {
   background-image:
@@ -118,4 +213,95 @@ html {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+}
+
+/* Card hover glow effect */
+.card-glow {
+  position: relative;
+  overflow: hidden;
+}
+
+.card-glow::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: 1px;
+  background: linear-gradient(135deg, transparent 0%, transparent 40%, rgba(74, 222, 128, 0.15) 50%, transparent 60%, transparent 100%);
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  pointer-events: none;
+}
+
+.card-glow:hover::before {
+  opacity: 1;
+}
+
+/* Neon text glow */
+.neon-glow {
+  text-shadow:
+    0 0 10px rgba(74, 222, 128, 0.3),
+    0 0 30px rgba(74, 222, 128, 0.1);
+}
+
+/* Smooth section dividers */
+.section-fade-top {
+  position: relative;
+}
+
+.section-fade-top::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  background: linear-gradient(to bottom, var(--background), transparent);
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Form focus glow */
+.input-glow:focus {
+  box-shadow: 0 0 0 3px rgba(22, 163, 74, 0.15), 0 0 20px rgba(22, 163, 74, 0.1);
+}
+
+/* Logo grayscale hover */
+.logo-item {
+  filter: grayscale(100%) brightness(0.7);
+  opacity: 0.5;
+  transition: all 0.4s ease;
+}
+
+.logo-item:hover {
+  filter: grayscale(0%) brightness(1);
+  opacity: 1;
+}
+
+/* Process line animation */
+.process-line {
+  position: relative;
+  overflow: hidden;
+}
+
+.process-line::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(90deg, var(--primary) 0%, var(--primary-light) 100%);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 1.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.process-line.visible::after {
+  transform: scaleX(1);
 }

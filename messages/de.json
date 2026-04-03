@@ -1,0 +1,222 @@
+{
+  "Metadata": {
+    "title": "Conro | Automation & Industrielösungen",
+    "description": "Conro liefert Automatisierungsprodukte und Industrielösungen in den Bereichen Elektrokonstruktion, Programmierung, Inbetriebnahme, Simulation, IT- und Elektrolösungen.",
+    "ogDescription": "Gesamtlösungen in Automation und Industrie — vom Konzept bis zur betriebsbereiten Anlage."
+  },
+  "Header": {
+    "services": "Leistungen",
+    "about": "Über uns",
+    "whyConro": "Warum Conro",
+    "contact": "Kontakt",
+    "cta": "Kontaktieren Sie uns",
+    "menuAriaLabel": "Menü"
+  },
+  "Hero": {
+    "badge": "Automation & Industrielösungen",
+    "headline1": "Wir bauen",
+    "headline2": "die Industrie",
+    "headline3": "der Zukunft",
+    "description": "Elektrokonstruktion. Programmierung. Inbetriebnahme. Simulation.",
+    "descriptionHighlight": " Wir begleiten Sie von der Idee bis zur betriebsbereiten Anlage",
+    "descriptionEnd": " — und sichern einen stabilen und effizienten Betrieb.",
+    "ctaPrimary": "Unsere Leistungen entdecken",
+    "ctaSecondary": "Sprechen Sie mit uns"
+  },
+  "TrustLogos": {
+    "label": "Werkzeuge & Plattformen, mit denen wir arbeiten"
+  },
+  "Services": {
+    "label": "Unser Angebot",
+    "heading1": "Sieben Disziplinen.",
+    "heading2": "Ein Anbieter.",
+    "description": "Wir bündeln die Kompetenz unter einem Dach, damit Sie nicht fünf verschiedene Beratungsfirmen koordinieren müssen.",
+    "programming": {
+      "title": "Programmierung",
+      "description": "Wir entwickeln Steuerungssysteme und Anwendungen, die Ihre Produktion intelligenter machen.",
+      "detailText": "Wir entwickeln maßgeschneiderte Steuerungssysteme und Softwarelösungen, die Ihnen volle Kontrolle über Ihre Produktionsprozesse geben. Von SPS-Programmierung in Siemens TIA Portal und Allen Bradley bis hin zu fortschrittlichen HMI/SCADA-Lösungen und KI-gesteuerter Automation.",
+      "workflowTitle": "Unser Ansatz",
+      "workflowText": "Wir beginnen mit einer gründlichen Analyse Ihrer bestehenden Systeme und Prozesse. Dann entwerfen wir eine auf Ihre Anforderungen zugeschnittene Lösung, entwickeln und testen sorgfältig vor der Lieferung und implementieren schließlich vor Ort mit vollem Support.",
+      "helpTitle": "Wir helfen Ihnen bei",
+      "helpItems": "SPS-Programmierung, HMI/SCADA-Design, Applikationsentwicklung, C#, C++, JavaScript, KI-Optimierung, Systemintegration, Software-Upgrades",
+      "sub0heading": "PLC",
+      "sub0items": "TIA Portal, Allen Bradley, Codesys",
+      "sub0hoverDetail": "Wir entwickeln robuste SPS-Programme für alles von einfachen Abläufen bis hin zu komplexen Prozessleitsystemen. Ob Siemens, Rockwell oder Codesys-basierte Plattformen — wir haben die Erfahrung zu liefern.",
+      "sub1heading": "HMI / SCADA",
+      "sub1items": "WinCC, FactoryTalk, Ignition",
+      "sub1hoverDetail": "Wir gestalten Bedienoberflächen, die Ihnen vollen Überblick und Kontrolle geben. Von lokalen HMI-Panels bis zu skalierbaren SCADA-Systemen mit Alarmen, Trends und Berichterstattung.",
+      "sub2heading": "Applikation",
+      "sub2items": "C#, C++, JavaScript u.a.",
+      "sub2hoverDetail": "Maßgeschneiderte Applikationen für Datenerfassung, Systemintegration und Prozessüberwachung. Wir entwickeln alles von Windows-Diensten bis zu Web-Oberflächen.",
+      "sub3heading": "AI & Intelligente Automation",
+      "sub3items": "KI-gesteuerte Optimierung, Vorausschauende Wartung, Maschinelles Lernen",
+      "sub3hoverDetail": "Wir helfen Ihnen, KI und maschinelles Lernen zu nutzen, um Prozesse zu optimieren, Wartungsbedarf vorherzusagen und datengestützte Entscheidungen in Echtzeit zu treffen."
+    },
+    "electrical": {
+      "title": "Elektrokonstruktion",
+      "description": "Komplette Elektrokonstruktion — von Schaltplänen bis zur fertigen Dokumentation.",
+      "detailText": "Komplette Elektrokonstruktion von der Anforderungsspezifikation bis zur Endlieferung. Wir erstellen professionelle Schaltpläne, Layoutzeichnungen und zugehörige Dokumentation in EPLAN und ElproCAD — stets gemäß geltender Normen und mit CE-Kennzeichnung.",
+      "workflowTitle": "Unser Ansatz",
+      "workflowText": "Wir gehen von Ihren Anforderungen aus, erstellen komplette Schaltpläne und Layouts, prüfen und sichern die Qualität der gesamten Dokumentation und liefern installationsfertig.",
+      "helpTitle": "Wir helfen Ihnen bei",
+      "helpItems": "Schaltpläne & Layouts, Komponentenauswahl, CE-Dokumentation, Upgrades, Überprüfungen",
+      "sub0heading": "Werkzeuge",
+      "sub0items": "EPLAN, ElproCAD",
+      "sub0hoverDetail": "Wir arbeiten mit den führenden Werkzeugen der Branche, um klare, standardisierte Schaltpläne und Layouts zu erstellen, die Installation und Wartung erleichtern.",
+      "sub1heading": "Lieferung",
+      "sub1items": "Dokumentation & Schaltpläne, CE-Kennzeichnung",
+      "sub1hoverDetail": "Komplette Lieferung mit Schaltplänen, Komponentenlisten und CE-Dokumentation gemäß geltender Maschinenrichtlinie und Niederspannungsrichtlinie."
+    },
+    "risk": {
+      "title": "Risikobewertung",
+      "description": "Sicherheitsbewertungen gemäß Maschinenrichtlinie mit den richtigen Werkzeugen.",
+      "detailText": "Systematische und gründliche Sicherheitsbewertungen, die sicherstellen, dass Ihre Maschinen und Anlagen alle Anforderungen der Maschinenrichtlinie erfüllen. Wir verwenden branchenführende Werkzeuge wie CEDOC, SISTEMA und Softema.",
+      "workflowTitle": "Unser Ansatz",
+      "workflowText": "Wir identifizieren alle relevanten Gefahren, bewerten Risikoniveaus nach harmonisierten Normen, entwickeln risikoreduzierende Maßnahmen und liefern eine vollständige Dokumentation.",
+      "helpTitle": "Wir helfen Ihnen bei",
+      "helpItems": "Risikoanalyse, Maschinenrichtlinie, SISTEMA-Analyse, Sicherheitsfunktionen, CE-Dokumentation",
+      "sub0heading": "Werkzeuge",
+      "sub0items": "CEDOC, SISTEMA, Softema",
+      "sub0hoverDetail": "Wir verwenden zertifizierte Werkzeuge für Risikoanalyse und Verifizierung von Sicherheitsfunktionen — damit Ihre Maschinen alle Anforderungen erfüllen.",
+      "sub1heading": "Umfang",
+      "sub1items": "Maschinenrichtlinie, Risikoanalyse & Dokumentation",
+      "sub1hoverDetail": "Systematische Risikobewertungen gemäß der Maschinenrichtlinie, mit vollständiger Dokumentation für Behörden."
+    },
+    "commissioning": {
+      "title": "Inbetriebnahme",
+      "description": "Wir sind vor Ort bei Ihnen, bis alles wie gewünscht funktioniert.",
+      "detailText": "Professionelle Inbetriebnahme, die sicherstellt, dass Ihre Systeme vom ersten Tag an einwandfrei funktionieren. Wir führen strukturierte Funktionstests durch, führen FAT und SAT planmäßig durch und bleiben, bis das System wie erwartet läuft.",
+      "workflowTitle": "Unser Ansatz",
+      "workflowText": "Wir planen die Inbetriebnahme sorgfältig gemeinsam mit Ihnen, führen schrittweise Funktionstests durch, überprüfen alle Sicherheitsfunktionen, justieren Parameter und schulen Ihre Bediener.",
+      "helpTitle": "Wir helfen Ihnen bei",
+      "helpItems": "Funktionstests, FAT / SAT, Parametrierung, Bedienerschulung, Fehlersuche, Optimierung",
+      "sub0heading": "Prozess",
+      "sub0items": "Funktionstests, FAT / SAT",
+      "sub0hoverDetail": "Strukturierte Prüfung in der Fabrik (FAT) und vor Ort (SAT) stellt sicher, dass jede Funktion korrekt arbeitet, bevor das System in Betrieb geht.",
+      "sub1heading": "Lieferung",
+      "sub1items": "Vor-Ort-Inbetriebnahme, Optimierung & Feinabstimmung",
+      "sub1hoverDetail": "Wir bleiben vor Ort, bis alles funktioniert. Parametereinstellung, Fehlersuche und Optimierung — wir gehen nicht, bevor Sie zufrieden sind."
+    },
+    "simulation": {
+      "title": "Simulation",
+      "description": "Testen Sie bevor Sie bauen — minimieren Sie Risiken und optimieren Sie Prozesse.",
+      "detailText": "Minimieren Sie Risiken und sparen Sie Zeit, indem Sie Ihre Systeme in einer virtuellen Umgebung testen und validieren, bevor Sie physisch implementieren. Mit digitalen Zwillingen und Strömungssimulation identifizieren wir Probleme frühzeitig.",
+      "workflowTitle": "Unser Ansatz",
+      "workflowText": "Wir erstellen ein digitales Modell Ihres Systems, führen Simulationen durch, um Engpässe und Risiken zu identifizieren, optimieren das Design iterativ und validieren die Lösung vor der physischen Implementierung.",
+      "helpTitle": "Wir helfen Ihnen bei",
+      "helpItems": "Virtuelle Inbetriebnahme, Strömungssimulation, Digitaler Zwilling, Prozessoptimierung, Kapazitätsanalyse",
+      "sub0heading": "Leistungen",
+      "sub0items": "Virtuelle Inbetriebnahme, Strömungssimulation, Digitaler Zwilling",
+      "sub0hoverDetail": "Testen und validieren Sie Ihre Systeme digital vor der physischen Implementierung. Engpässe identifizieren, Abläufe optimieren und das Risiko kostspieliger Änderungen reduzieren."
+    },
+    "it": {
+      "title": "IT-Lösungen",
+      "description": "Industrielle Netzwerke, Cybersicherheit und Systemintegration für eine vernetzte Produktion.",
+      "detailText": "Robuste industrielle IT-Lösungen, die OT und IT sicher und effizient verbinden. Wir designen Netzwerke, implementieren Cybersicherheitslösungen und integrieren Systeme für volle Produktionstransparenz.",
+      "workflowTitle": "Unser Ansatz",
+      "workflowText": "Wir kartieren Ihre bestehende Infrastruktur, identifizieren Sicherheitsrisiken und Engpässe, entwerfen eine zukunftssichere Lösung und implementieren mit minimaler Auswirkung auf Ihren Betrieb.",
+      "helpTitle": "Wir helfen Ihnen bei",
+      "helpItems": "Netzwerkdesign, OT/IT-Sicherheit, Systemintegration, Datenmanagement, Fernzugriff",
+      "sub0heading": "Leistungen",
+      "sub0items": "Industrielle Netzwerke, Cybersicherheit (OT/IT), Systemintegration",
+      "sub0hoverDetail": "Wir entwerfen sichere industrielle Netzwerke, implementieren OT-Cybersicherheit und verbinden Ihre Systeme für volle Produktionstransparenz."
+    },
+    "elSolutions": {
+      "title": "Elektrolösungen",
+      "description": "Komplette Elektrosysteme für die Industrie — von der Skizze bis zur Realität.",
+      "detailText": "Komplette Elektrolösungen für die Industrie — von der Projektierung und Dimensionierung bis zur Installation und Inbetriebnahme. Wir liefern alles von Stromversorgung und Niederspannungssystemen bis hin zu maßgeschneiderten Automatisierungsschränken.",
+      "workflowTitle": "Unser Ansatz",
+      "workflowText": "Wir projektieren nach Ihren spezifischen Bedürfnissen, wählen qualitätsgesicherte Komponenten, führen professionelle Installation durch und testen und dokumentieren die gesamte Lieferung.",
+      "helpTitle": "Wir helfen Ihnen bei",
+      "helpItems": "Stark- & Niederspannung, Projektierung, Installation, Automatisierungsschränke, Kabelverlegung, Elektroservice, Energieeffizienz",
+      "sub0heading": "Leistungen",
+      "sub0items": "Stark- & Niederspannung, Projektierung & Installation, Automatisierungsschränke, Energieeffizienz",
+      "sub0hoverDetail": "Von Stromversorgung und Kabelverlegung bis zu maßgeschneiderten Automatisierungsschränken — wir liefern komplette Elektrosysteme, dimensioniert nach Ihren Anforderungen."
+    }
+  },
+  "Stats": {
+    "experience": "Jahre Erfahrung",
+    "projects": "Gelieferte Projekte",
+    "customers": "Zufriedene Kunden",
+    "support": "Support bei Bedarf"
+  },
+  "About": {
+    "label": "Über Conro",
+    "heading1": "Technische Exzellenz",
+    "heading2": "in jeder",
+    "heading3": "Lieferung",
+    "paragraph1": "Conro wurde mit einem klaren Ziel gegründet: Automatisierungslösungen zu liefern, die wirklich einen Unterschied machen. Wir verbinden tiefes technisches Know-how mit einem systematischen Arbeitsansatz.",
+    "paragraph2": "Unsere Stärke liegt darin, das Gesamtbild zu verstehen — von der Zeichnung bis zur fertigen Anlage. Das bedeutet weniger Missverständnisse, schnellere Lieferungen und Systeme, die in der Praxis tatsächlich funktionieren.",
+    "feature1title": "Zertifizierte Ingenieure",
+    "feature1desc": "Expertise, der Sie vertrauen können",
+    "feature2title": "Agile Methodik",
+    "feature2desc": "Flexibel und anpassungsfähig",
+    "feature3title": "Komplettanbieter",
+    "feature3desc": "Alles unter einem Dach",
+    "feature4title": "Langfristige Partnerschaft",
+    "feature4desc": "Wir bleiben auch nach der Lieferung",
+    "boxLabel": "Automation & Industrie"
+  },
+  "Process": {
+    "label": "Unser Prozess",
+    "heading1": "Drei Schritte zu einer",
+    "heading2": "funktionierenden Anlage",
+    "step1number": "01",
+    "step1title": "Analyse & Design",
+    "step1description": "Wir erfassen Ihre Anforderungen und entwickeln eine durchdachte Lösung, die auf Ihre spezifischen Bedingungen zugeschnitten ist.",
+    "step2number": "02",
+    "step2title": "Entwicklung & Test",
+    "step2description": "Elektrokonstruktion, Programmierung und Simulation — alles wird vor der Lieferung gründlich verifiziert.",
+    "step3number": "03",
+    "step3title": "Betrieb & Support",
+    "step3description": "Professionelle Inbetriebnahme vor Ort, gefolgt von laufendem Support und kontinuierlicher Optimierung."
+  },
+  "CTA": {
+    "heading": "Bereit für den nächsten Schritt?",
+    "description": "Lassen Sie uns besprechen, wie wir Ihnen helfen können, die Produktion zu optimieren und Ihre Systeme zukunftssicher zu machen.",
+    "button": "Kontaktieren Sie uns heute"
+  },
+  "Contact": {
+    "label": "Kontakt",
+    "heading1": "Haben Sie ein Projekt?",
+    "heading2": "Wir haben die Lösung.",
+    "description": "Erzählen Sie uns, was Sie brauchen. Wir melden uns mit einem konkreten Plan und einem klaren Budget zurück.",
+    "emailLabel": "E-Mail",
+    "phoneLabel": "Telefon",
+    "locationLabel": "Standort",
+    "locationValue": "Schweden"
+  },
+  "ContactForm": {
+    "title": "Anfrage senden",
+    "nameLabel": "Name",
+    "namePlaceholder": "Ihr Name",
+    "emailLabel": "E-Mail",
+    "emailPlaceholder": "ihre@email.de",
+    "messageLabel": "Nachricht",
+    "messagePlaceholder": "Beschreiben Sie Ihr Projekt...",
+    "submit": "Anfrage senden",
+    "sending": "Wird gesendet...",
+    "successHeading": "Vielen Dank für Ihre Anfrage!",
+    "successText": "Wir haben Ihre Nachricht erhalten und melden uns innerhalb von 24 Stunden zurück.",
+    "emailSubject": "Neue Anfrage von conro.se"
+  },
+  "Footer": {
+    "description": "Gesamtlösungen in Automation und Industrie. Vom Konzept bis zur fertigen Anlage.",
+    "servicesHeading": "Leistungen",
+    "companyHeading": "Unternehmen",
+    "contactHeading": "Kontakt",
+    "aboutLink": "Über uns",
+    "servicesLink": "Leistungen",
+    "processLink": "Unser Prozess",
+    "contactLink": "Kontakt",
+    "copyright": "Alle Rechte vorbehalten.",
+    "privacy": "Datenschutz",
+    "cookies": "Cookies"
+  },
+  "Common": {
+    "themeAriaLabel": "Design wechseln",
+    "scrollTopAriaLabel": "Nach oben",
+    "light": "Light",
+    "dark": "Dark"
+  }
+}
